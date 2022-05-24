@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_OOP", "CSharp_OOP\CSharp_OOP.csproj", "{2BD170E6-091F-49D5-A365-36BD0FC7D200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLibrary", "EmployeeLibrary\EmployeeLibrary.csproj", "{BAEF3806-9FD8-4CC5-ACEA-47EC5C475955}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BD170E6-091F-49D5-A365-36BD0FC7D200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD170E6-091F-49D5-A365-36BD0FC7D200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD170E6-091F-49D5-A365-36BD0FC7D200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD170E6-091F-49D5-A365-36BD0FC7D200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEF3806-9FD8-4CC5-ACEA-47EC5C475955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEF3806-9FD8-4CC5-ACEA-47EC5C475955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEF3806-9FD8-4CC5-ACEA-47EC5C475955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEF3806-9FD8-4CC5-ACEA-47EC5C475955}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCE7006C-415A-478C-BF94-972849805BB1}
+	EndGlobalSection
+EndGlobal

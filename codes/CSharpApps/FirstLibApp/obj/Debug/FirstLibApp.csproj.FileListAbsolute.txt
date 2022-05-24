@@ -1,0 +1,5 @@
+E:\training\bosch-repo\codes\CSharpApps\FirstLibApp\bin\Debug\FirstLibApp.dll
+E:\training\bosch-repo\codes\CSharpApps\FirstLibApp\bin\Debug\FirstLibApp.pdb
+E:\training\bosch-repo\codes\CSharpApps\FirstLibApp\obj\Debug\FirstLibApp.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\CSharpApps\FirstLibApp\obj\Debug\FirstLibApp.dll
+E:\training\bosch-repo\codes\CSharpApps\FirstLibApp\obj\Debug\FirstLibApp.pdb

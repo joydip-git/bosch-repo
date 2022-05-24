@@ -103,6 +103,67 @@ d. Headers:
         ii. win32 header: stores information about what type of application created (console/ UI desktop/web/mobile etc.) and some windows o/s file information (user32.dll)
 
 
+C#:
+------------------------
+class access specifiers: 
+	public:accessible within the same application/assembly where the class has been declared as well as from outside the application (from different application)
+	 or 
+	internal: accessible within the application/assembly where the class has been declared
+
+class member access specifiers: 
+	public, internal, private, protected, protected internal
+
+data types:
+-----------------------------------
+value types					reference types
+-------------------------------------------------------------------
+byte		struct			object		class
+sbyte		enum			string		interface
+short					array		delegates
+ushort							events
+int
+uint
+long
+ulong
+
+double
+decimal
+float
+
+bool
+
+char
+
+DateTime
+TimeSpan
+
+nullable type:
+int x = null;
+
+A obj = null;
+
+Nullable<int> x = null;
+x = 10;
+
+int? x = null;
+
+if(x.HasValue)
+	cw(x.Value)
+
+
+pid	pname	price	descrip	dept
+-----------------------------------------------
+1	ashas	NULL	cjsb	HR
+
+decimal? price = null/100
+
+
+
+
+
+
+
+
 
 
 

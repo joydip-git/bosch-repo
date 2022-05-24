@@ -1,0 +1,10 @@
+E:\training\bosch-repo\codes\CSharpApps\FirstConsoleApp\bin\Debug\FirstConsoleApp.exe.config
+E:\training\bosch-repo\codes\CSharpApps\FirstConsoleApp\bin\Debug\FirstConsoleApp.exe
+E:\training\bosch-repo\codes\CSharpApps\FirstConsoleApp\bin\Debug\FirstConsoleApp.pdb
+E:\training\bosch-repo\codes\CSharpApps\FirstConsoleApp\obj\Debug\FirstConsoleApp.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\CSharpApps\FirstConsoleApp\obj\Debug\FirstConsoleApp.exe
+E:\training\bosch-repo\codes\CSharpApps\FirstConsoleApp\obj\Debug\FirstConsoleApp.pdb
+E:\training\bosch-repo\codes\CSharpApps\FirstConsoleApp\bin\Debug\FirstLibApp.dll
+E:\training\bosch-repo\codes\CSharpApps\FirstConsoleApp\bin\Debug\FirstLibApp.pdb
+E:\training\bosch-repo\codes\CSharpApps\FirstConsoleApp\obj\Debug\FirstConsoleApp.csproj.CopyComplete
+E:\training\bosch-repo\codes\CSharpApps\FirstConsoleApp\obj\Debug\FirstConsoleApp.csproj.AssemblyReference.cache

@@ -1,0 +1,15 @@
+name, email, phone no, id, basic, da, hra,
+
+UI/Presentation: (Executable - console/wpf)
+	Loose-coupling - interface
+
+Business Logic: (library)
+	Loose-coupling - interface
+
+Data Access Logic: (library)
+	interface/Loose-coupling
+
+Domain class: (library)
+	Employee (name, id, basic, da, hra)
+
+database: (runtime in-memory data)

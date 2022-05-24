@@ -1,0 +1,6 @@
+E:\training\bosch-repo\codes\CSharp_OOP\EmployeeLibrary\bin\Debug\EmployeeLibrary.dll
+E:\training\bosch-repo\codes\CSharp_OOP\EmployeeLibrary\bin\Debug\EmployeeLibrary.pdb
+E:\training\bosch-repo\codes\CSharp_OOP\EmployeeLibrary\obj\Debug\EmployeeLibrary.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\CSharp_OOP\EmployeeLibrary\obj\Debug\EmployeeLibrary.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\CSharp_OOP\EmployeeLibrary\obj\Debug\EmployeeLibrary.dll
+E:\training\bosch-repo\codes\CSharp_OOP\EmployeeLibrary\obj\Debug\EmployeeLibrary.pdb
