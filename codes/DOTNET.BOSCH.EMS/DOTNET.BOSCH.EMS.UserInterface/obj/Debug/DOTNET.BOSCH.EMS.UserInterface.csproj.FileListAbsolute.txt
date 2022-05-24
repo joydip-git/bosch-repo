@@ -1,0 +1,11 @@
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\bin\Debug\DOTNET.BOSCH.EMS.UserInterface.exe.config
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\bin\Debug\DOTNET.BOSCH.EMS.UserInterface.exe
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\bin\Debug\DOTNET.BOSCH.EMS.UserInterface.pdb
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\obj\Debug\DOTNET.BOSCH.EMS.UserInterface.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\obj\Debug\DOTNET.BOSCH.EMS.UserInterface.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\obj\Debug\DOTNET.BOSCH.EMS.UserInterface.exe
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\obj\Debug\DOTNET.BOSCH.EMS.UserInterface.pdb
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\bin\Debug\DOTNET.BOSCH.EMS.BusinessEntities.dll
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\bin\Debug\DOTNET.BOSCH.EMS.BusinessEntities.pdb
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\bin\Debug\DOTNET.BOSCH.EMS.BusinessEntities.xml
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.UserInterface\obj\Debug\DOTNET.BOSCH.EMS.UserInterface.csproj.CopyComplete

@@ -1,0 +1,6 @@
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.BusinessEntities\bin\Debug\DOTNET.BOSCH.EMS.BusinessEntities.dll
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.BusinessEntities\bin\Debug\DOTNET.BOSCH.EMS.BusinessEntities.pdb
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.BusinessEntities\obj\Debug\DOTNET.BOSCH.EMS.BusinessEntities.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.BusinessEntities\obj\Debug\DOTNET.BOSCH.EMS.BusinessEntities.dll
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.BusinessEntities\obj\Debug\DOTNET.BOSCH.EMS.BusinessEntities.pdb
+E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.BusinessEntities\bin\Debug\DOTNET.BOSCH.EMS.BusinessEntities.xml

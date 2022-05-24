@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DOTNET.BOSCH.EMS.BusinessEntities\DOTNET.BOSCH.EMS.BusinessEntities.csproj">
+      <Project>{c1e49896-9bb5-4fd1-9f4f-69f44a65853a}</Project>
+      <Name>DOTNET.BOSCH.EMS.BusinessEntities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

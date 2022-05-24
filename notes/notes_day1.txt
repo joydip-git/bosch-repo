@@ -90,7 +90,8 @@ COM (Component Object Model) <2002
 
 execution cycle of a .NET app:
 ------------------------------------------------------------
-Source code (C#/vb.net/vc++) --> csc/vbc/vcc --> executable(.exe)/library(.dll) <-- win64 file
+Step-1: compile the application
+Source code (C#/vb.net/vc++) --> csc/vbc/vcc --> executable(.exe)/library(.dll) <-- PE win64 file
 output files contain IL/CIL/MSIL code (Common/Microsoft Intermediate Language)
 view IL code: use tool --> ILDASM (Intermediate Language Disassembler)
 
@@ -99,9 +100,19 @@ a. IL code
 b. manifest: (information about the assembly)
 c. Metadata/Metainfo: information about every type written in the application or used by default 
 d. Headers:
-	i. CLR Header: indicates the app must in CLR and the CLR version required for it
+	i. CLR Header: indicates the app must run in CLR and the CLR version required for it
         ii. win32 header: stores information about what type of application created (console/ UI desktop/web/mobile etc.) and some windows o/s file information (user32.dll)
 
+Step-2: run the application
+CLR comes into the picture
+IL Code (present in output file) --> CLR -- (Just-In-Time)--> Machine level language code --> Executed
+
+CLR: Library (mscoree.dll => Microsoft Common Object Runtime Execution Engine)
+-----------------------------
+a. running the Main thread
+b. allocating memory
+c. object memory de-allocation (GC)
+.....................
 
 C#:
 ------------------------
@@ -117,20 +128,20 @@ data types:
 -----------------------------------
 value types					reference types
 -------------------------------------------------------------------
-byte		struct			object		class
-sbyte		enum			string		interface
-short					array		delegates
-ushort							events
-int
+byte (Byte)	struct			object		class
+sbyte(SByte)	enum			string		interface
+short (Int16)				array		delegates
+ushort (UInt16)						events
+int (Int32)
 uint
-long
+long (Int64)
 ulong
 
 double
 decimal
 float
 
-bool
+bool (Boolean)
 
 char
 
@@ -156,6 +167,28 @@ pid	pname	price	descrip	dept
 1	ashas	NULL	cjsb	HR
 
 decimal? price = null/100
+
+
+
+C#		VB			IL
+---------------------------------------------
+int		Integer			Int32
+int x = 10      Dim x As Integer
+
+CTS: Common Type System
+
+
+Executable: C#
+Library: VB.NET => DLL (IL code)
+
+Language Interpoerability
+
+
+Math=> PI
+public const double PI = 3.14.....;
+
+
+
 
 
 
