@@ -1,0 +1,15 @@
+E:\training\bosch-repo\codes\first-core-app\bin\Debug\net6.0\first-core-app.exe
+E:\training\bosch-repo\codes\first-core-app\bin\Debug\net6.0\first-core-app.deps.json
+E:\training\bosch-repo\codes\first-core-app\bin\Debug\net6.0\first-core-app.runtimeconfig.json
+E:\training\bosch-repo\codes\first-core-app\bin\Debug\net6.0\first-core-app.dll
+E:\training\bosch-repo\codes\first-core-app\bin\Debug\net6.0\ref\first-core-app.dll
+E:\training\bosch-repo\codes\first-core-app\bin\Debug\net6.0\first-core-app.pdb
+E:\training\bosch-repo\codes\first-core-app\obj\Debug\net6.0\first-core-app.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\first-core-app\obj\Debug\net6.0\first-core-app.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\bosch-repo\codes\first-core-app\obj\Debug\net6.0\first-core-app.AssemblyInfoInputs.cache
+E:\training\bosch-repo\codes\first-core-app\obj\Debug\net6.0\first-core-app.AssemblyInfo.cs
+E:\training\bosch-repo\codes\first-core-app\obj\Debug\net6.0\first-core-app.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\first-core-app\obj\Debug\net6.0\first-core-app.dll
+E:\training\bosch-repo\codes\first-core-app\obj\Debug\net6.0\ref\first-core-app.dll
+E:\training\bosch-repo\codes\first-core-app\obj\Debug\net6.0\first-core-app.pdb
+E:\training\bosch-repo\codes\first-core-app\obj\Debug\net6.0\first-core-app.genruntimeconfig.cache

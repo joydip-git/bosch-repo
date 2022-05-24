@@ -1,0 +1,110 @@
+SDKD tools:
+C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools
+
+libraries:
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+
+.NET Framework: (2002) - legacy framework - 4.8: development environment
+-------------------------------------------------------------------------------
+2002 - 1.0 - 1.0
+2003 - 1.1 - 1.1
+2005 - 2.0 - 2.0
+2007 - 3.0 - 2.0
+2008 - 3.5 - 2.0
+2010 - 4.0 - 4.0
+2012/13 - 4.5 (4.5.1./4.5.2)
+2015 - 4.6 (4.6.1/4.6.2)
+2017 - 4.7
+2019 - 4.8
+
+collection of components:
+-------------------------------------
+library: BCL/FCL (Base/Framework class library)
+runtime: CLR (common language runtime)
+web app: ASP.NET (Active Server Pages.NET)
+data access: ADO.NET (ActiveX Data Object.NET)
+
+
+.NET Core Framework: (2016/17) - cross paltform .net applications (6)
+---------------------------------------------------------------------
+2017 - 1.0
+.............
+2019 - 3.1 --> 5.0 (.NET)
+
+2022 (November) - 6.0
+
+.NET 5/6/3.1/2.2
+
+library: core library 
+runtime: core runtime
+	desktop: desktop runtime
+	web app: asp.net core runtime
+web framework: asp.net core
+
+portable app: (.NET standard)
+-----------------------------------------------
+.NET Core and .NET Framework
+
+
+
+command to compile an executable app:
+---------------------------------------------
+csc /target:exe <exec-file-name>.cs
+
+command to compile an library app:
+---------------------------------------------
+csc /target:library <lib-file-name>.cs
+
+command to compile an executable app referring a library app:
+-----------------------------------------------------------------------
+csc /target:exe /reference:<lib-name>.dll <executable-calss-file>.cs
+
+programming languages used in .NET Framework:
+------------------------------------------------------------
+Visual C#.NET
+Visual Basic.NET
+Visual C++.NET
+Visual Foxpro.NET
+Ruby
+Python
+
+
+Managed Extension to C++
+...............................................
+
+COM (Component Object Model) <2002
+------------------------------------------------
+ VC++, VB (6.0), Foxpro etc.
+ Library (Type Library [.tlb])
+ ASP
+ ADO + DAO + RDO
+ runtime
+
+ Java
+
+ J++ => J#
+
+ 2001 --> .NET Framework
+
+--------------------------------------------------------------
+
+execution cycle of a .NET app:
+------------------------------------------------------------
+Source code (C#/vb.net/vc++) --> csc/vbc/vcc --> executable(.exe)/library(.dll) <-- win64 file
+output files contain IL/CIL/MSIL code (Common/Microsoft Intermediate Language)
+view IL code: use tool --> ILDASM (Intermediate Language Disassembler)
+
+output file [.exe/.dll] --> assembly [stand-alone/reusable]
+a. IL code
+b. manifest: (information about the assembly)
+c. Metadata/Metainfo: information about every type written in the application or used by default 
+d. Headers:
+	i. CLR Header: indicates the app must in CLR and the CLR version required for it
+        ii. win32 header: stores information about what type of application created (console/ UI desktop/web/mobile etc.) and some windows o/s file information (user32.dll)
+
+
+
+
+
+
+
