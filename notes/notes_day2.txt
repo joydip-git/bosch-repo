@@ -1,0 +1,15 @@
+1. inheritance
+2. polymorphism - static and dynamic (virtual and override)
+3. upcasting and downcasting
+4. abstract class
+5. ctor execution sequence: child ctor (developer/hr) -> base ctor (default ctor by default)(employee)->base ctor (object), base keyword
+6. interface
+7. exception handling
+
+generics
+generic collections and collections
+delegate
+events
+
+windows form application
+

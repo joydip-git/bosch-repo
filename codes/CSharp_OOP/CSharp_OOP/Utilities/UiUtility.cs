@@ -15,24 +15,45 @@ namespace CSharp_OOP.Utilities
             return records;
         }
 
-        public static Employee CreateEmployee()
+        public static Employee CreateEmployee(int choice)
         {
             Console.Write("\nName: ");
             string name = Console.ReadLine();
 
-            Console.Write("\nId: ");
+            Console.Write("Id: ");
             int id = int.Parse(Console.ReadLine());
 
-            Console.Write("\nBasic Pay: ");
+            Console.Write("Basic Pay: ");
             decimal basic = decimal.Parse(Console.ReadLine());
 
-            Console.Write("\nDa Pay: ");
+            Console.Write("Da Pay: ");
             decimal da = decimal.Parse(Console.ReadLine());
 
-            Console.Write("\nHra Pay: ");
+            Console.Write("Hra Pay: ");
             decimal hra = decimal.Parse(Console.ReadLine());
 
-            Employee employee = new Employee(name, id, basic, da, hra);
+            Console.Write("Project Name: ");
+            string project = Console.ReadLine();
+
+            Employee employee = null;
+            switch (choice)
+            {
+                case 1:
+                    Console.Write("Incentive Pay: ");
+                    decimal incentive = decimal.Parse(Console.ReadLine());
+                    employee = new Developer(name, id, basic, da, hra, incentive, project);
+                    break;
+
+                case 2:
+                    Console.Write("Gratuity Pay: ");
+                    decimal gratuity = decimal.Parse(Console.ReadLine());
+                    employee = new Hr(name, id, basic, da, hra, gratuity, project);
+                    break;
+
+                default:
+                    Console.WriteLine("\nenter a proper choice");
+                    break;
+            }
 
             return employee;
         }
@@ -54,5 +75,18 @@ namespace CSharp_OOP.Utilities
                     Console.WriteLine($"{employee.Name} has salary {employee.TotalSalary}");
             }
         }
+
+        public static void Print()
+        {
+            Console.WriteLine("\n 1. Developer");
+            Console.WriteLine("2. Hr");
+        }
+
+        public static int GetChoice()
+        {
+            Console.Write("\nEnter Choice[1/2]: ");
+            return int.Parse(Console.ReadLine());
+        }
+
     }
 }

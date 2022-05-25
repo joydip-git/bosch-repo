@@ -8,17 +8,19 @@ using static CSharp_OOP.Utilities.UiUtility;
 namespace CSharp_OOP
 {
     class UserInterface
-    {       
+    {
+       
         static void Main()
         {
-            //int records = Convert.ToInt32(value);
             int records = GetNumberOfRecordsFromUser();
 
             EmployeeDao employeeDao = new EmployeeDao();
 
             for (int index = 0; index < records; index++)
             {
-                Employee employeeRef = CreateEmployee();
+                Print();
+                int choice = GetChoice();
+                Employee employeeRef = CreateEmployee(choice);
                 Console.WriteLine(employeeDao.Add(employeeRef));
             }
 

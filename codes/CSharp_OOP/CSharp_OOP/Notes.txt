@@ -25,4 +25,17 @@
             anilEmployeeObj.ProjectName = "SSIS";
             //joydipEmployeeObj.SetProjectName("CITA");
             //anilEmployeeObj.SetProjectName("SSIS");
+
+
+            upcasting and downcasting:
+             //upcasting: creating an instance of child class and storing the address of the same in the variable of type base class, since through that I can access base class members, part of the child class object. It is implicit
+            Employee dev = new Developer("sunil", 3, 1000, 2000, 3000, 4000, "CITA");
+            //downcasting: explicit
+            Developer devOriginal = (Developer)dev;
+            //as operator is used to downcast and applicable for reference type only
+            Developer devOriginalAgain = dev as Developer;
+
+
+            //int x = 0;
+            //short y = (short)x;
  */
