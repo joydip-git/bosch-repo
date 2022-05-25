@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\day-2\GenericDemo\SortingDemo\bin\Debug\SortingDemo.exe.config
+E:\training\bosch-repo\codes\day-2\GenericDemo\SortingDemo\bin\Debug\SortingDemo.exe
+E:\training\bosch-repo\codes\day-2\GenericDemo\SortingDemo\bin\Debug\SortingDemo.pdb
+E:\training\bosch-repo\codes\day-2\GenericDemo\SortingDemo\obj\Debug\SortingDemo.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-2\GenericDemo\SortingDemo\obj\Debug\SortingDemo.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-2\GenericDemo\SortingDemo\obj\Debug\SortingDemo.exe
+E:\training\bosch-repo\codes\day-2\GenericDemo\SortingDemo\obj\Debug\SortingDemo.pdb

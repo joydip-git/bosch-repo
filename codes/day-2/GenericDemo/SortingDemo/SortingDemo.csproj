@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7BA20738-F064-4610-BF6F-32C83C0E2DF3}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DOTNET.BOSCH.EMS.DaoLayer</RootNamespace>
-    <AssemblyName>DOTNET.BOSCH.EMS.DaoLayer</AssemblyName>
+    <ProjectGuid>{D4944A99-1D01-4C72-81CF-DD89EFD87AC2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SortingDemo</RootNamespace>
+    <AssemblyName>SortingDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,15 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contract\IDao.cs" />
-    <Compile Include="Implementation\EmployeeDao.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="PersonComparison.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DOTNET.BOSCH.EMS.BusinessEntities\DOTNET.BOSCH.EMS.BusinessEntities.csproj">
-      <Project>{c1e49896-9bb5-4fd1-9f4f-69f44a65853a}</Project>
-      <Name>DOTNET.BOSCH.EMS.BusinessEntities</Name>
-    </ProjectReference>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

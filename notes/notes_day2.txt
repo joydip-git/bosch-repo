@@ -191,6 +191,15 @@ class Some
 	M3(){}
 }
 
+Generic:class, interface, method
+
+Generic collection classes: List<T> (ArrayList)
+custom generic collection class
+
+sorting:
+	internalization
+	externaliation
+
 
 
 
