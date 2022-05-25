@@ -13,3 +13,105 @@ events
 
 windows form application
 
+
+polymorphism:
+
+1. compile-time/static: 
+a. operator overloading: string s1 = ""; string s2=""; s1+s2 (s1.Concat(s2))
+			 int x = 10; int y =20; x+y
+b. function overloading:
+--------------------------------
+class Addition
+{
+	int result;
+	public Addition(){}
+	public Addition(int x){}
+	public void Add(int a, int b){ result = (a+b);}
+	public void Add(int a, int b, int c){}
+	public void Add(int a, int b, long c){} //invocable
+	public void Add(int a, long b, int c){}
+}
+
+need to make difference in the "SIGNATURE (data type, number, position of the arguments)" of the methods
+a. number of arguments
+b. data type of arguments
+c. position/order of the arguments
+
+Main (){
+   calc.Add(12,13,234567899567889); //invocation
+}
+
+execution cycle:
+step1: compiltaion
+step2: execution (CLR)
+
+
+2. dynamic:
+Make sure every class has similar functionality (Cut): Inheritance
+But those common funtionalties will have different implementation, but same signature
+
+				class Person=> virtual Cut(){//code}
+
+HairStylist			Butcher			FilmDirector		XYZ
+---------------------------------------------------------------------------------------------
+override Cut()			override Cut()		override Cut()		override Cut()
+
+
+
+static Person Create(int choice){
+	Person p = null;
+    switch(choice){
+       case 1:
+		p = new HS();
+	break;
+
+	case 2:
+		p = new B();
+		break;
+
+	case 3:
+		p = new FD();
+		break;
+
+	case 4:
+		p = new XYZ();
+		break;
+   }
+   return p;
+}
+Main(){
+	Person  p = Create();
+	p.Cut();
+
+        or...
+
+	if(p is HS)
+	{
+		HS hs = p as HS;
+		hs.Cut()
+	}
+	if(p is B){
+		B b = p as B;
+		b.Cut()
+	}
+	if(p is FD){
+		FD fd = p as FD;
+		fd.Cut()
+	}
+	if(p is XYZ){
+		XYZ x = p as XYZ;
+		x. Cut()
+	}
+}
+
+			
+SOLID:
+Single Responsibilty
+Open close principle: write code in such a way that it is open for extension but closed for change
+
+
+
+
+
+
+

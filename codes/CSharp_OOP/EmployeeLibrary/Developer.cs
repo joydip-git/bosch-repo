@@ -8,17 +8,21 @@ namespace EmployeeLibrary
 {
     public class Developer : Employee
     {
-        public decimal incentivePayment;
+        decimal incentivePayment;
 
         public Developer()
         {
         }
 
         public Developer(string name, int id, decimal basicPay, decimal daPay, decimal hraPay, decimal incentive, string project = null) : base(name, id, basicPay, daPay, hraPay, project)
-        {          
+        {
             this.incentivePayment = incentive;
         }
-
-        public void Foo1() { }
+        //public new void CalculateSalary()
+        public override void CalculateSalary()
+        {
+            base.CalculateSalary();
+            this.TotalSalary += incentivePayment;
+        }
     }
 }

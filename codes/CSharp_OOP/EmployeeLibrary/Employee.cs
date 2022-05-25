@@ -4,7 +4,7 @@ namespace EmployeeLibrary
 {
     public class Employee //:object
     {
-        public string name;
+        string name;
         readonly int id;
         decimal basicPay;
         decimal daPay;
@@ -33,7 +33,11 @@ namespace EmployeeLibrary
         }
 
         public int Id => this.id;
-        public decimal TotalSalary => this.totalSalary;
+        public decimal TotalSalary
+        { 
+            get => this.totalSalary; 
+            protected set => this.totalSalary = value; 
+        }
         public string Name { get => name; set => name = value; }
         public decimal DaPay { get => daPay; set => daPay = value; }
         public decimal HraPay { get => hraPay; set => hraPay = value; }
@@ -41,11 +45,9 @@ namespace EmployeeLibrary
         public string ProjectName { get => projectName; set => projectName = value; }
         public decimal BasicPay { get => basicPay; set => basicPay = value; }
 
-        public void CalculateSalary()
+        public virtual void CalculateSalary()
         {
             this.totalSalary = this.basicPay + daPay + hraPay + joiningBonus;
         }
-
-        public void Foo() { }
     }
 }

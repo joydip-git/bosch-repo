@@ -21,6 +21,7 @@ namespace CSharp_OOP
                 Print();
                 int choice = GetChoice();
                 Employee employeeRef = CreateEmployee(choice);
+                //employeeRef.TotalSalary = 90000;
                 Console.WriteLine(employeeDao.Add(employeeRef));
             }
 
