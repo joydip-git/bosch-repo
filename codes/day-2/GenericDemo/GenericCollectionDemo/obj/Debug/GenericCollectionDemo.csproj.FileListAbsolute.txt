@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\day-2\GenericDemo\GenericCollectionDemo\bin\Debug\GenericCollectionDemo.exe.config
+E:\training\bosch-repo\codes\day-2\GenericDemo\GenericCollectionDemo\bin\Debug\GenericCollectionDemo.exe
+E:\training\bosch-repo\codes\day-2\GenericDemo\GenericCollectionDemo\bin\Debug\GenericCollectionDemo.pdb
+E:\training\bosch-repo\codes\day-2\GenericDemo\GenericCollectionDemo\obj\Debug\GenericCollectionDemo.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-2\GenericDemo\GenericCollectionDemo\obj\Debug\GenericCollectionDemo.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-2\GenericDemo\GenericCollectionDemo\obj\Debug\GenericCollectionDemo.exe
+E:\training\bosch-repo\codes\day-2\GenericDemo\GenericCollectionDemo\obj\Debug\GenericCollectionDemo.pdb
