@@ -110,6 +110,92 @@ Single Responsibilty
 Open close principle: write code in such a way that it is open for extension but closed for change
 
 
+Make sure every class has similar functionality
+But those common funtionalties will have different implementation, but same signature in child classes whereas base class method will have NO IMPLEMENTATION (since there is nothing common between the child class method implementation)
+abstract pattern
+
+		abstract Person
+	abstract bool IsOutstanding();
+
+professor			student
+-----------------------------------------------
+name				name
+booksPublished>=5		marks>=85
+override bool IsOutstanding()	override bool IsOutstanding()
+{
+	return 	booksPublished>=5;	{
+						return marks>=85?true:false;
+}					}
+
+			DataAccess
+			virtual GetData(){ ????? }
+DataAccessFromFile			DataAccessFromDB
+-------------------			-----------------------------
+override GetData(){}			override GetData(){}
+
+
+interface:
+	pure abstract class
+	can't have data members, explicit constructors etc.
+	all members (methods and/or properties) are by default abstract and public. so do not use any abstract or public keyword
+	no override keyword is used while implementing the interface methods/properties in the class
+	you must implement interface members in a class
+
+
+interface IDataAccess
+{
+	string GetData();
+	void Foo();
+	string Status{get;}
+}
+
+abstract class DataAccessFromFile:IDataAccess{
+	public string GetData(){}
+	public abstract void Foo();
+	public abstract string Status{get;}
+}
+
+class A: IA, IB, IC
+{
+}
+
+interface IA { Foo(); Foo1(); }
+interface IB { Foo(); Foo2(); }
+class C:IA, IB { Foo(){} Foo1(){} Foo2(){} Foo3(){} }
+
+C objk = new C();
+objk.Foo();
+
+interface ISome
+{
+	bool M1();
+	void M2(args);
+}
+
+class Some
+{
+	M1(){}
+	M2(){}
+	M3(){}
+}
+
+
+RT M1(args)
+
+service-oriented architecture
+
+class Some
+{
+	M1(){}
+	M2(){}
+	M3(){}
+}
+
+
+
+
+
+
 
 
 

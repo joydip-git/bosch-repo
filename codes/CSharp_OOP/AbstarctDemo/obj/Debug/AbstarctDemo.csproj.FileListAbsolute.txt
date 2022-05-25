@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\CSharp_OOP\AbstarctDemo\obj\Debug\AbstarctDemo.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\CSharp_OOP\AbstarctDemo\obj\Debug\AbstarctDemo.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\CSharp_OOP\AbstarctDemo\bin\Debug\AbstarctDemo.exe.config
+E:\training\bosch-repo\codes\CSharp_OOP\AbstarctDemo\bin\Debug\AbstarctDemo.exe
+E:\training\bosch-repo\codes\CSharp_OOP\AbstarctDemo\bin\Debug\AbstarctDemo.pdb
+E:\training\bosch-repo\codes\CSharp_OOP\AbstarctDemo\obj\Debug\AbstarctDemo.exe
+E:\training\bosch-repo\codes\CSharp_OOP\AbstarctDemo\obj\Debug\AbstarctDemo.pdb
