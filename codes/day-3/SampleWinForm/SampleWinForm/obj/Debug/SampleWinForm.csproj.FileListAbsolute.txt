@@ -1,0 +1,10 @@
+E:\training\bosch-repo\codes\day-3\SampleWinForm\SampleWinForm\bin\Debug\SampleWinForm.exe.config
+E:\training\bosch-repo\codes\day-3\SampleWinForm\SampleWinForm\bin\Debug\SampleWinForm.exe
+E:\training\bosch-repo\codes\day-3\SampleWinForm\SampleWinForm\bin\Debug\SampleWinForm.pdb
+E:\training\bosch-repo\codes\day-3\SampleWinForm\SampleWinForm\obj\Debug\SampleWinForm.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-3\SampleWinForm\SampleWinForm\obj\Debug\SampleWinForm.Form1.resources
+E:\training\bosch-repo\codes\day-3\SampleWinForm\SampleWinForm\obj\Debug\SampleWinForm.Properties.Resources.resources
+E:\training\bosch-repo\codes\day-3\SampleWinForm\SampleWinForm\obj\Debug\SampleWinForm.csproj.GenerateResource.cache
+E:\training\bosch-repo\codes\day-3\SampleWinForm\SampleWinForm\obj\Debug\SampleWinForm.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-3\SampleWinForm\SampleWinForm\obj\Debug\SampleWinForm.exe
+E:\training\bosch-repo\codes\day-3\SampleWinForm\SampleWinForm\obj\Debug\SampleWinForm.pdb

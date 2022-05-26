@@ -19,7 +19,7 @@ namespace StringType
         static void Main()
         {
             //params int[] x = new int[4];
-            //"I am a freelance consultant, and currently working for Bosch. I am from Bangalore"
+            //"I am a freelance consultant, and currently working for Bosch. I am from Bangalore."
             /*
              * word1: count-value
              * word2: count-value
@@ -37,7 +37,12 @@ namespace StringType
              */
             Console.Write("enter a sentence: ");
             string value = Console.ReadLine();
-            Split(sentence: value, ' ', ',', '.');
+            SortedList<string,int> result = WordFinder.GetWordCount(value);
+            foreach (KeyValuePair<string, int> item in result)
+            {
+                Console.WriteLine(item.Key + ":" + item.Value);
+            }
+            //Split(sentence: value, ' ', ',', '.');
         }
     }
 }
