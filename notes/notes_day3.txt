@@ -78,3 +78,12 @@ Type in C#?
 
 Execution cycle:
 
+Type:
+	Name
+	FullName
+	.................
+n+2
+
+hidden: SBI: Sync Block Index (bit=>GC)
+	TOP: Type Object Pointer
+

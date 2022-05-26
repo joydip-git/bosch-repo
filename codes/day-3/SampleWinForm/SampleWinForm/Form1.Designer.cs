@@ -33,6 +33,7 @@ namespace SampleWinForm
         private void InitializeComponent()
         {
             this.btnClick = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnClick
@@ -47,20 +48,31 @@ namespace SampleWinForm
             this.btnClick.Text = "Click Me!!!";
             this.btnClick.UseVisualStyleBackColor = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(268, 290);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(224, 22);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(834, 384);
+            this.ClientSize = new System.Drawing.Size(855, 433);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnClick);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
         #endregion
 
         private Button btnClick;
+        private TextBox textBox1;
     }
 }
 

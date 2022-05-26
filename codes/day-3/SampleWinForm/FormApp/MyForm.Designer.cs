@@ -17,6 +17,9 @@ namespace FormApp
             this.btnClick.Name ="btnClick";
             this.btnClick.Size = new System.Drawing.Size(100,50);
             this.btnClick.Location = new System.Drawing.Point(100, 200);
+            EventHandler clickHandler = new EventHandler(this.Called);
+            //clickHandler += this.CalledAgain;
+            this.btnClick.Click += clickHandler;
 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

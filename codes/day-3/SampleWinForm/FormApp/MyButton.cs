@@ -23,6 +23,6 @@ namespace FormApp
             set { name = value; }
         }
 
-        //public event ? Click;
+        public event EventHandler Click;
     }
 }

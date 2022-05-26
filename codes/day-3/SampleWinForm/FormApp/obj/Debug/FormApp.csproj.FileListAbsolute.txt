@@ -4,3 +4,4 @@ E:\training\bosch-repo\codes\day-3\SampleWinForm\FormApp\bin\Debug\FormApp.pdb
 E:\training\bosch-repo\codes\day-3\SampleWinForm\FormApp\obj\Debug\FormApp.csproj.CoreCompileInputs.cache
 E:\training\bosch-repo\codes\day-3\SampleWinForm\FormApp\obj\Debug\FormApp.exe
 E:\training\bosch-repo\codes\day-3\SampleWinForm\FormApp\obj\Debug\FormApp.pdb
+E:\training\bosch-repo\codes\day-3\SampleWinForm\FormApp\obj\Debug\FormApp.csproj.AssemblyReference.cache

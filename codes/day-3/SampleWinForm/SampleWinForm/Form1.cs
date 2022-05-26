@@ -16,5 +16,15 @@ namespace SampleWinForm
         {           
             InitializeComponent();
         }
+
+        private void btnClick_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\day-3\SampleWinForm\ProblemStatement\bin\Debug\ProblemStatement.exe.config
+E:\training\bosch-repo\codes\day-3\SampleWinForm\ProblemStatement\bin\Debug\ProblemStatement.exe
+E:\training\bosch-repo\codes\day-3\SampleWinForm\ProblemStatement\bin\Debug\ProblemStatement.pdb
+E:\training\bosch-repo\codes\day-3\SampleWinForm\ProblemStatement\obj\Debug\ProblemStatement.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-3\SampleWinForm\ProblemStatement\obj\Debug\ProblemStatement.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-3\SampleWinForm\ProblemStatement\obj\Debug\ProblemStatement.exe
+E:\training\bosch-repo\codes\day-3\SampleWinForm\ProblemStatement\obj\Debug\ProblemStatement.pdb

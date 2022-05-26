@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BC1F2D77-336C-4EC4-9F73-170B59BBF1ED}</ProjectGuid>
+    <ProjectGuid>{315B684C-7785-4533-9FDB-5078CCA5F21E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ProblemStatement</RootNamespace>
-    <AssemblyName>ProblemStatement</AssemblyName>
+    <RootNamespace>DelegateDemo</RootNamespace>
+    <AssemblyName>DelegateDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
