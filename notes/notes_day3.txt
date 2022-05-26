@@ -1,0 +1,68 @@
+sorting: (comparison between elements)
+	a. default (internalization): entity has implemented IComparable
+	b. externalization: separate class implementing IComparer
+	c. delegates:
+
+collection classes			generic collection classes
+(System.Collections)			(System.Collections.Generic)
+---------------------------------------------------------------------------
+IEnumerable				IEnumerable<T>
+ICollection				ICollection<T>
+IList					IList<T>
+......................................................
+				
+---------------------------------------------------------------------------
+ArrayList				List<T>
+Stack					Stack<T>
+Queue					Queue<T>
+					HashSet<T>
+.................................................................
+HashTable				Dictionary<TKey,TValue>
+DictionaryEntry (struct)		KeyValuePair<TKey,TValue>
+SortedList				SortedList<TKey,TValue>
+..................................................................
+
+Comparison between elements:
+-------------------------------------------------------------------
+		System:
+IComparable			IComparable<T>
+
+System.Collections		System.Collections.Generic
+----------------------------------------------------------------
+IComparer			IComparer<T>
+
+
+
+1. hashing
+2. encryption
+3. digital signature
+
+
+function hash(data,random){
+	
+}
+
+
+(1st block of data, random value) => hash function => 1st hash value
+(2nd block of data,  1st hash value)=> hash function => 2nd hash value
+.......................................................................
+(nth block of data, (n-1)th hash value => hash function => nth hash value
+
+2^256 => ...................................
+
+
+whatever data => hash function (2*2) => 4
+
+0.0001%
+
+Equality between elements:
+HashSet: you have overriden GetHashCode() and Equals() method of Object class in the entity
+
+generic, collections, generic collections, sorting , comparison etc.
+delegate
+reflection, 
+	file handling, 
+		winform, linq, threading, serialization, events, async etc.
+
+windows forms
+

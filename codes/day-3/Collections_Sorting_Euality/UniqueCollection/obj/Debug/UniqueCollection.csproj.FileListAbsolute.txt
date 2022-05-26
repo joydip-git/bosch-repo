@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\UniqueCollection\bin\Debug\UniqueCollection.exe.config
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\UniqueCollection\bin\Debug\UniqueCollection.exe
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\UniqueCollection\bin\Debug\UniqueCollection.pdb
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\UniqueCollection\obj\Debug\UniqueCollection.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\UniqueCollection\obj\Debug\UniqueCollection.exe
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\UniqueCollection\obj\Debug\UniqueCollection.pdb
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\UniqueCollection\obj\Debug\UniqueCollection.csproj.AssemblyReference.cache
