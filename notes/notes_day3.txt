@@ -69,3 +69,12 @@ windows forms
 partial: 
 	delegate
 
+Reflection:
+	a. to discover the type information dynamically (Runtime Type Discovery)
+	b. invoke method/s based on metadata of the method (dynamic invocation)
+	c. create instance dynamically (on the fly)
+
+Type in C#?
+
+Execution cycle:
+

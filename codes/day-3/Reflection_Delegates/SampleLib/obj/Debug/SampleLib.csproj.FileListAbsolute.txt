@@ -1,0 +1,5 @@
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\SampleLib\bin\Debug\SampleLib.dll
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\SampleLib\bin\Debug\SampleLib.pdb
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\SampleLib\obj\Debug\SampleLib.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\SampleLib\obj\Debug\SampleLib.dll
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\SampleLib\obj\Debug\SampleLib.pdb

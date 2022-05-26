@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\RefelctionDemo\bin\Debug\RefelctionDemo.exe.config
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\RefelctionDemo\bin\Debug\RefelctionDemo.exe
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\RefelctionDemo\bin\Debug\RefelctionDemo.pdb
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\RefelctionDemo\obj\Debug\RefelctionDemo.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\RefelctionDemo\obj\Debug\RefelctionDemo.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\RefelctionDemo\obj\Debug\RefelctionDemo.exe
+E:\training\bosch-repo\codes\day-3\Reflection_Delegates\RefelctionDemo\obj\Debug\RefelctionDemo.pdb
