@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\KeyValueCollections\bin\Debug\KeyValueCollections.exe.config
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\KeyValueCollections\bin\Debug\KeyValueCollections.exe
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\KeyValueCollections\bin\Debug\KeyValueCollections.pdb
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\KeyValueCollections\obj\Debug\KeyValueCollections.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\KeyValueCollections\obj\Debug\KeyValueCollections.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\KeyValueCollections\obj\Debug\KeyValueCollections.exe
+E:\training\bosch-repo\codes\day-3\Collections_Sorting_Euality\KeyValueCollections\obj\Debug\KeyValueCollections.pdb
