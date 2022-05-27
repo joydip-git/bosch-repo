@@ -40,3 +40,11 @@ class Person
 var pdata = new {FullName = <value from db>}
 
 var statistics = new {MinPrice = <>, MaxPrice=<>, AvgPrice=<>}
+
+
+1. https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/
+2. https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries
+3. https://docs.microsoft.com/en-us/dotnet/csharp/linq/query-expression-basics
+4. https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq
+5. https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/walkthrough-writing-queries-linq
+6. https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/standard-query-operators-overview

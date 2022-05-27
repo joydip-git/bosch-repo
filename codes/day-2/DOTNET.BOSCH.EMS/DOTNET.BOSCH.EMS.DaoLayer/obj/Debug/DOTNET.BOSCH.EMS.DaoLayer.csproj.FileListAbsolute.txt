@@ -4,3 +4,13 @@ E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\obj\Debu
 E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\obj\Debug\DOTNET.BOSCH.EMS.DaoLayer.csproj.CoreCompileInputs.cache
 E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\obj\Debug\DOTNET.BOSCH.EMS.DaoLayer.dll
 E:\training\bosch-repo\codes\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\obj\Debug\DOTNET.BOSCH.EMS.DaoLayer.pdb
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\bin\Debug\DOTNET.BOSCH.EMS.DaoLayer.dll
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\bin\Debug\DOTNET.BOSCH.EMS.DaoLayer.pdb
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\bin\Debug\DOTNET.BOSCH.EMS.BusinessEntities.dll
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\bin\Debug\DOTNET.BOSCH.EMS.BusinessEntities.pdb
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\bin\Debug\DOTNET.BOSCH.EMS.BusinessEntities.xml
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\obj\Debug\DOTNET.BOSCH.EMS.DaoLayer.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\obj\Debug\DOTNET.BOSCH.EMS.DaoLayer.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\obj\Debug\DOTNET.BOSCH.EMS.DaoLayer.csproj.CopyComplete
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\obj\Debug\DOTNET.BOSCH.EMS.DaoLayer.dll
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.DaoLayer\obj\Debug\DOTNET.BOSCH.EMS.DaoLayer.pdb

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodUsage", "Ext
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerableExtension", "EnumerableExtension\EnumerableExtension.csproj", "{478EE4FD-8FA0-4848-B168-8C3F2C8479D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqPractice", "LinqPractice\LinqPractice.csproj", "{23ADDDFD-1181-4F25-991A-65849262BC89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{478EE4FD-8FA0-4848-B168-8C3F2C8479D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{478EE4FD-8FA0-4848-B168-8C3F2C8479D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{478EE4FD-8FA0-4848-B168-8C3F2C8479D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23ADDDFD-1181-4F25-991A-65849262BC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23ADDDFD-1181-4F25-991A-65849262BC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23ADDDFD-1181-4F25-991A-65849262BC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23ADDDFD-1181-4F25-991A-65849262BC89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

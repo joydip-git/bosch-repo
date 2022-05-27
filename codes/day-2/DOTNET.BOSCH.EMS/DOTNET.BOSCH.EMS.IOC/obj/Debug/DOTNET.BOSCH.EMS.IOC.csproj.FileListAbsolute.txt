@@ -1,0 +1,5 @@
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.IOC\bin\Debug\DOTNET.BOSCH.EMS.IOC.dll
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.IOC\bin\Debug\DOTNET.BOSCH.EMS.IOC.pdb
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.IOC\obj\Debug\DOTNET.BOSCH.EMS.IOC.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.IOC\obj\Debug\DOTNET.BOSCH.EMS.IOC.dll
+E:\training\bosch-repo\codes\day-2\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.IOC\obj\Debug\DOTNET.BOSCH.EMS.IOC.pdb

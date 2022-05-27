@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Configuration;
+using DOTNET.BOSCH.EMS.BusinessEntities;
+
+namespace DOTNET.BOSCH.EMS.DaoLayer.Utilities
+{
+    static class DaoUtility
+    {
+        public static string GetPath(RecordType recordType)
+        {
+            string filePath = null;
+            switch (recordType)
+            {
+                case RecordType.Product:
+                    filePath = ConfigurationManager.AppSettings["productsFilePath"];
+                    break;
+
+                case RecordType.Category:
+                    filePath = ConfigurationManager.AppSettings["categoriesFilePath"];
+                    break;
+
+                default:
+                    break;
+            }
+            return filePath;
+        }
+
+        public static Product ConvertRecordToProduct(string[] record)
+        {
+            Product product = new Product
+            {
+                Id = int.Parse(record[0]),
+                Name = record[1],
+                Price = double.Parse(record[2]),
+                Description = record[3],
+                CategoryId = int.Parse(record[4])
+            };
+            return product;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DOTNET.BOSCH.EMS.BusinessEntities</name>
+    </assembly>
+    <members>
+        <member name="T:DOTNET.BOSCH.EMS.BusinessEntities.Employee">
+            <summary>
+            Employee entity
+            </summary>
+        </member>
+        <member name="M:DOTNET.BOSCH.EMS.BusinessEntities.Employee.#cctor">
+            <summary>
+            static constructor initializing value to joining bonus
+            </summary>
+        </member>
+        <member name="M:DOTNET.BOSCH.EMS.BusinessEntities.Employee.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="M:DOTNET.BOSCH.EMS.BusinessEntities.Employee.#ctor(System.String,System.Int32,System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            parameterized constructor 
+            </summary>
+            <param name="name">name of an employee</param>
+            <param name="id">id of an employee</param>
+            <param name="basicPay">basic payment of an employee</param>
+            <param name="daPay">da payment of an employee</param>
+            <param name="hraPay">hra payment of an employee</param>
+        </member>
+        <member name="P:DOTNET.BOSCH.EMS.BusinessEntities.Employee.Name">
+            <summary>
+            sets of gets the name of an employee
+            </summary>
+        </member>
+        <member name="P:DOTNET.BOSCH.EMS.BusinessEntities.Employee.Id">
+            <summary>
+            gets the id of an employee
+            </summary>
+        </member>
+        <member name="P:DOTNET.BOSCH.EMS.BusinessEntities.Employee.BasicPay">
+            <summary>
+            sets of gets the basic payment of an employee
+            </summary>
+        </member>
+        <member name="P:DOTNET.BOSCH.EMS.BusinessEntities.Employee.DaPay">
+            <summary>
+            sets of gets the da payment of an employee
+            </summary>
+        </member>
+        <member name="P:DOTNET.BOSCH.EMS.BusinessEntities.Employee.HraPay">
+            <summary>
+            sets of gets the hra payment of an employee
+            </summary>
+        </member>
+        <member name="P:DOTNET.BOSCH.EMS.BusinessEntities.Employee.JoiningBonus">
+            <summary>
+            gets the joining bonus payment of an employee
+            </summary>
+        </member>
+        <member name="P:DOTNET.BOSCH.EMS.BusinessEntities.Employee.TotalSalary">
+            <summary>
+            sets of gets the calculated total salary of an employee
+            </summary>
+        </member>
+        <member name="M:DOTNET.BOSCH.EMS.BusinessEntities.Employee.CalculateSalary">
+            <summary>
+            Method to calculate the total salary of an employee
+            </summary>
+        </member>
+    </members>
+</doc>

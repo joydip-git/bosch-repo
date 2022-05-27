@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace DOTNET.BOSCH.EMS.DaoLayer.Contract
 {
@@ -11,8 +7,7 @@ namespace DOTNET.BOSCH.EMS.DaoLayer.Contract
         bool Add(T data);
         bool Update(T data);
         bool Delete(int id);
-        T[] GetAll();
+        IEnumerable<T> GetAll();
         T Get();
-        T[] Search(string criteria);
     }
 }
