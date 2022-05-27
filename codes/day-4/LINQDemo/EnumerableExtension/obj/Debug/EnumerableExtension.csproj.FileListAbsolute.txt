@@ -1,0 +1,5 @@
+E:\training\bosch-repo\codes\day-4\LINQDemo\EnumerableExtension\bin\Debug\EnumerableExtension.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\EnumerableExtension\bin\Debug\EnumerableExtension.pdb
+E:\training\bosch-repo\codes\day-4\LINQDemo\EnumerableExtension\obj\Debug\EnumerableExtension.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-4\LINQDemo\EnumerableExtension\obj\Debug\EnumerableExtension.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\EnumerableExtension\obj\Debug\EnumerableExtension.pdb

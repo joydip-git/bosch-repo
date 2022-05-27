@@ -11,6 +11,7 @@ Add(int a, int b) Add(b:10, a:20)
 	g. anonymous method (2.0 - 2005)
 	h. anonymous type(3.0 - 2007)
 	i. extension method (3.0 - 2007)
+	j. static import (6.0)
 Foo(int a, int b=0)
 4. threading
 5. file handling
