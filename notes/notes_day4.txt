@@ -1,0 +1,41 @@
+1. winforms
+2. LINQ (3.5 - 2008)
+3. new features:
+	a. Lambda expression (3.0-2007)
+	b. Collection initializer  and object initializer (3.0-2007)
+	c. Named argument (4.0 - 2010)
+Add(int a, int b) Add(b:10, a:20)
+	d. optional argument with default value (4.0 - 2010)
+	e. implicitly typed local variable ( var x = 10;) and implicitly typed array (3.0-2007)
+	f. automatic or auto-implemented properties (3.0-2007)
+	g. anonymous method (2.0 - 2005)
+	h. anonymous type(3.0 - 2007)
+	i. extension method (3.0 - 2007)
+Foo(int a, int b=0)
+4. threading
+5. file handling
+6. exception handling
+
+Path to LINQ (Language Integrated Query): OOP, generic, collections and generic collections, delegate, generic delegate, anonymous method, new features of C#
+
+
+adhaarid	firstname	lastname	salary
+--------------------------------------------------------------
+1		joy		mon		1000
+
+
+pname, pid, desc, price, imagepath
+
+declare @fname varchar(50)
+declare @lname varchar(50)
+select @fname = firstname, @lname=lastname from people where adhaarid=1
+select @fname + @lname as fullname
+
+class Person
+{
+	public string Adhaar{get;set;}
+}
+
+var pdata = new {FullName = <value from db>}
+
+var statistics = new {MinPrice = <>, MaxPrice=<>, AvgPrice=<>}

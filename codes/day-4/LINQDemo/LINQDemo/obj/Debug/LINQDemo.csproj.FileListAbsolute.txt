@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\day-4\LINQDemo\LINQDemo\obj\Debug\LINQDemo.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-4\LINQDemo\LINQDemo\obj\Debug\LINQDemo.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-4\LINQDemo\LINQDemo\bin\Debug\LINQDemo.exe.config
+E:\training\bosch-repo\codes\day-4\LINQDemo\LINQDemo\bin\Debug\LINQDemo.exe
+E:\training\bosch-repo\codes\day-4\LINQDemo\LINQDemo\bin\Debug\LINQDemo.pdb
+E:\training\bosch-repo\codes\day-4\LINQDemo\LINQDemo\obj\Debug\LINQDemo.exe
+E:\training\bosch-repo\codes\day-4\LINQDemo\LINQDemo\obj\Debug\LINQDemo.pdb
