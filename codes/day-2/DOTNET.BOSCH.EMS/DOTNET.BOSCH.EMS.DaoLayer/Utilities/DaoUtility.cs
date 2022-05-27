@@ -41,5 +41,15 @@ namespace DOTNET.BOSCH.EMS.DaoLayer.Utilities
             };
             return product;
         }
+
+        public static Category ConvertRecordToCategory(string[] record)
+        {
+            Category category = new Category
+            {
+                Id = int.Parse(record[0]),
+                Name = record[1]
+            };
+            return category;
+        }
     }
 }

@@ -34,27 +34,29 @@ namespace DOTNET.BOSCH.EMS.DaoLayer.Implementation
             List<Product> products = null;
             if (File.Exists(path))
             {
-                StreamReader reader = new StreamReader(path);
-                products = new List<Product>();                
-                while (!reader.EndOfStream)
-                {                   
-                    string record = null;
-                    if ((record = reader.ReadLine()) != string.Empty)
+                StreamReader reader = null;
+                using (reader = new StreamReader(path))
+                {
+                    products = new List<Product>();
+                    while (!reader.EndOfStream)
                     {
-                        string[] values = record.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
-                        var product = ConvertRecordToProduct(values);
-                        products.Add(product);
+                        string record = null;
+                        if ((record = reader.ReadLine()) != string.Empty)
+                        {
+                            string[] values = record.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                            var product = ConvertRecordToProduct(values);
+                            products.Add(product);
+                        }
                     }
+                    reader.Close();
                 }
-                reader.Close();
-                reader.Dispose();
             }
             return products;
         }
 
         public IEnumerable<Product> GetProductsByCategoryId(int catgeoryId)
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         public bool Update(Product data)

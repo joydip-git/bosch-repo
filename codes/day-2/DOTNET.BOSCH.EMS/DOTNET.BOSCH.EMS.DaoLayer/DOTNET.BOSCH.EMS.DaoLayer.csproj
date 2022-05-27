@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Contract\IDao.cs" />
     <Compile Include="Contract\IProductDao.cs" />
+    <Compile Include="Implementation\CategoryDao.cs" />
     <Compile Include="Implementation\ProductDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\DaoUtility.cs" />

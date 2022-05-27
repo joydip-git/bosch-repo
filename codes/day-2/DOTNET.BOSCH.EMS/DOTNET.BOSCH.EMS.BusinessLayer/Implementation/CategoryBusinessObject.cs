@@ -11,34 +11,30 @@ using DOTNET.BOSCH.EMS.IOC;
 
 namespace DOTNET.BOSCH.EMS.BusinessLayer.Implementation
 {
-    public class ProductBusinessObject : IProductBusinessObject
+    public class CategoryBusinessObject : IBusinessObject<Category>
     {
-        private IProductDao productDao;
-        public ProductBusinessObject()
+        private IDao<Category> categoryDao;
+
+        public CategoryBusinessObject()
         {
-            productDao = Factory.Create().Resolve<IProductDao, ProductDao>();
+            categoryDao = Factory.Create().Resolve<IDao<Category>, CategoryDao>();
         }
-        public Product Fetch()
+        public Category Fetch()
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Product> FetchAll()
+        public IEnumerable<Category> FetchAll()
         {
-            return productDao.GetAll();
+            return categoryDao.GetAll();
         }
 
-        public IEnumerable<Product> FetchProductsByCategoryId(int catgeoryId)
-        {
-            return productDao.GetAll().Where(p => p.CategoryId == catgeoryId).ToList<Product>();
-        }
-
-        public bool Insert(Product data)
+        public bool Insert(Category data)
         {
             throw new NotImplementedException();
         }
 
-        public bool Modify(Product data)
+        public bool Modify(Category data)
         {
             throw new NotImplementedException();
         }

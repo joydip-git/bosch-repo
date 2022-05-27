@@ -46,14 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ProductRecords.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ProductRecords.Designer.cs">
+      <DependentUpon>ProductRecords.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ProductRecords.resx">
+      <DependentUpon>ProductRecords.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +78,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DOTNET.BOSCH.EMS.BusinessEntities\DOTNET.BOSCH.EMS.BusinessEntities.csproj">
+      <Project>{c1e49896-9bb5-4fd1-9f4f-69f44a65853a}</Project>
+      <Name>DOTNET.BOSCH.EMS.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOTNET.BOSCH.EMS.BusinessLayer\DOTNET.BOSCH.EMS.BusinessLayer.csproj">
+      <Project>{05e67be5-6e9f-48e2-9666-3d2fcdedb4cc}</Project>
+      <Name>DOTNET.BOSCH.EMS.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOTNET.BOSCH.EMS.IOC\DOTNET.BOSCH.EMS.IOC.csproj">
+      <Project>{95ade1a2-4c01-420e-a9d2-232c0c45a74a}</Project>
+      <Name>DOTNET.BOSCH.EMS.IOC</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
