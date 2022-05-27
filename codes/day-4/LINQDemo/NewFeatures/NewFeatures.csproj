@@ -49,5 +49,27 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalculationExtensionLibrary\CalculationExtensionLibrary.csproj">
+      <Project>{86f391ec-8107-4093-8bcd-abdd76dbde9d}</Project>
+      <Name>CalculationExtensionLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CalculationLibrary\CalculationLibrary.csproj">
+      <Project>{edf2cdcb-32d3-4d36-9db4-15947063c7d7}</Project>
+      <Name>CalculationLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DaoExtensionLibrary\DaoExtensionLibrary.csproj">
+      <Project>{ca3a2eaa-996d-4dc1-9a05-34db1517aaef}</Project>
+      <Name>DaoExtensionLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmployeeDaoLibrary\EmployeeDaoLibrary.csproj">
+      <Project>{e5d857f1-a900-4b76-aa09-f590fe29e1b8}</Project>
+      <Name>EmployeeDaoLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InterfaceLibrary\InterfaceLibrary.csproj">
+      <Project>{0449bdee-f46d-4f6d-b5a6-a247fbbdfd5f}</Project>
+      <Name>InterfaceLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

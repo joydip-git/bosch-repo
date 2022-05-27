@@ -1,0 +1,5 @@
+E:\training\bosch-repo\codes\day-4\LINQDemo\InterfaceLibrary\bin\Debug\InterfaceLibrary.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\InterfaceLibrary\bin\Debug\InterfaceLibrary.pdb
+E:\training\bosch-repo\codes\day-4\LINQDemo\InterfaceLibrary\obj\Debug\InterfaceLibrary.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-4\LINQDemo\InterfaceLibrary\obj\Debug\InterfaceLibrary.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\InterfaceLibrary\obj\Debug\InterfaceLibrary.pdb

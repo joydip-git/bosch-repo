@@ -1,0 +1,9 @@
+E:\training\bosch-repo\codes\day-4\LINQDemo\EmployeeDaoLibrary\bin\Debug\EmployeeDaoLibrary.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\EmployeeDaoLibrary\bin\Debug\EmployeeDaoLibrary.pdb
+E:\training\bosch-repo\codes\day-4\LINQDemo\EmployeeDaoLibrary\bin\Debug\InterfaceLibrary.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\EmployeeDaoLibrary\bin\Debug\InterfaceLibrary.pdb
+E:\training\bosch-repo\codes\day-4\LINQDemo\EmployeeDaoLibrary\obj\Debug\EmployeeDaoLibrary.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-4\LINQDemo\EmployeeDaoLibrary\obj\Debug\EmployeeDaoLibrary.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-4\LINQDemo\EmployeeDaoLibrary\obj\Debug\EmployeeDaoLibrary.csproj.CopyComplete
+E:\training\bosch-repo\codes\day-4\LINQDemo\EmployeeDaoLibrary\obj\Debug\EmployeeDaoLibrary.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\EmployeeDaoLibrary\obj\Debug\EmployeeDaoLibrary.pdb

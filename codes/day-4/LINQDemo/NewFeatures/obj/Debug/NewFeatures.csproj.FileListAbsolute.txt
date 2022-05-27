@@ -5,3 +5,14 @@ E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\obj\Debug\NewFeatures.cs
 E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\obj\Debug\NewFeatures.csproj.CoreCompileInputs.cache
 E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\obj\Debug\NewFeatures.exe
 E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\obj\Debug\NewFeatures.pdb
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\bin\Debug\CalculationLibrary.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\bin\Debug\CalculationLibrary.pdb
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\obj\Debug\NewFeatures.csproj.CopyComplete
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\bin\Debug\CalculationExtensionLibrary.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\bin\Debug\CalculationExtensionLibrary.pdb
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\bin\Debug\DaoExtensionLibrary.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\bin\Debug\EmployeeDaoLibrary.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\bin\Debug\InterfaceLibrary.dll
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\bin\Debug\DaoExtensionLibrary.pdb
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\bin\Debug\EmployeeDaoLibrary.pdb
+E:\training\bosch-repo\codes\day-4\LINQDemo\NewFeatures\bin\Debug\InterfaceLibrary.pdb

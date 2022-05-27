@@ -1,8 +1,10 @@
-﻿using System;
+﻿using CalculationExtensionLibrary;
+using CalculationLibrary;
+using DaoExtensionLibrary;
+using EmployeeDaoLibrary;
+using InterfaceLibrary;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NewFeatures
 {
@@ -36,6 +38,7 @@ namespace NewFeatures
         public string Name { get; set; }
         public int Id { get; set; }
     }
+    /*
     class Employee
     {
         int id;
@@ -73,6 +76,7 @@ namespace NewFeatures
         }
 
     }
+    */
     class Program
     {
         static object Get()
@@ -112,6 +116,18 @@ namespace NewFeatures
 
             //Console.WriteLine(Get() as ?);
 
+            Calculation calculation = new Calculation();
+            Console.WriteLine(calculation.Add(12,13));
+            Console.WriteLine(calculation.Multiply(12,13));
+
+            IDao<Employee> employeeDao = new EmployeeDao();
+            Console.WriteLine(employeeDao.Foo<Employee>("joy"));
+
+            IDao<Department> deptDao = new DepartmentDao();
+            Console.WriteLine(deptDao.Foo<Department>("anil"));
+
+            EmployeeDao ed = new EmployeeDao();
+            ed.Foo<Employee>("");
         }
     }
 }
