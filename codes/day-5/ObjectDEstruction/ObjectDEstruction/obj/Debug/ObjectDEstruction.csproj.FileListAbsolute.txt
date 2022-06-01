@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\ObjectDEstruction\bin\Debug\ObjectDEstruction.exe.config
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\ObjectDEstruction\bin\Debug\ObjectDEstruction.exe
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\ObjectDEstruction\bin\Debug\ObjectDEstruction.pdb
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\ObjectDEstruction\obj\Debug\ObjectDEstruction.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\ObjectDEstruction\obj\Debug\ObjectDEstruction.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\ObjectDEstruction\obj\Debug\ObjectDEstruction.exe
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\ObjectDEstruction\obj\Debug\ObjectDEstruction.pdb

@@ -32,4 +32,21 @@ data acces layer
 	N methods 
 	3/4 exceptions
 	3N,4N,....
+
+Object destruction:
+Garbage Collector (part of CLR)
+
+GC.Collect();
+Inactive roots
+
+		1mb  3mb 6mb
+Generation: 0 => 1 => 2
+
+Mark the objects
+
+GC.Collect();
+
+SBI: Sync Block Index => bit value
+
+
 	

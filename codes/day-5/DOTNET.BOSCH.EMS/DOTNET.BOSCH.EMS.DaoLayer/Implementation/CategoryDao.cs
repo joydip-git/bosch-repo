@@ -32,22 +32,24 @@ namespace DOTNET.BOSCH.EMS.DaoLayer.Implementation
         {
             string path = GetPath(RecordType.Category);
             List<Category> categories = null;
+            StreamReader reader = null;
             if (File.Exists(path))
             {
-                StreamReader reader = new StreamReader(path);
-                categories = new List<Category>();
-                while (!reader.EndOfStream)
+                using (reader = new StreamReader(path))
                 {
-                    string record = null;
-                    if ((record = reader.ReadLine()) != string.Empty)
+                    categories = new List<Category>();
+                    while (!reader.EndOfStream)
                     {
-                        string[] values = record.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
-                        var category = ConvertRecordToCategory(values);
-                        categories.Add(category);
+                        string record = null;
+                        if ((record = reader.ReadLine()) != string.Empty)
+                        {
+                            string[] values = record.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                            var category = ConvertRecordToCategory(values);
+                            categories.Add(category);
+                        }
                     }
+                    reader.Close();
                 }
-                reader.Close();
-                reader.Dispose();
             }
             return categories;
         }

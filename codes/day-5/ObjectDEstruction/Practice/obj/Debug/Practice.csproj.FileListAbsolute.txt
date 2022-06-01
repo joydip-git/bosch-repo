@@ -1,0 +1,6 @@
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\Practice\bin\Debug\Practice.exe.config
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\Practice\bin\Debug\Practice.exe
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\Practice\bin\Debug\Practice.pdb
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\Practice\obj\Debug\Practice.exe
+E:\training\bosch-repo\codes\day-5\ObjectDEstruction\Practice\obj\Debug\Practice.pdb
