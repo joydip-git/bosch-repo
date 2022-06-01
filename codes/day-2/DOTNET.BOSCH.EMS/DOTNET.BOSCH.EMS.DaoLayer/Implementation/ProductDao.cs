@@ -51,6 +51,10 @@ namespace DOTNET.BOSCH.EMS.DaoLayer.Implementation
                     reader.Close();
                 }
             }
+            else
+            {
+                throw new FileNotFoundException($"no file found at the given path: {path}");
+            }
             return products;
         }
 

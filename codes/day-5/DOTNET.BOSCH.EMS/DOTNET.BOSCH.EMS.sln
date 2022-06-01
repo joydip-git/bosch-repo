@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.BusinessEntities", "DOTNET.BOSCH.EMS.BusinessEntities\DOTNET.BOSCH.EMS.BusinessEntities.csproj", "{C1E49896-9BB5-4FD1-9F4F-69F44A65853A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.DaoLayer", "DOTNET.BOSCH.EMS.DaoLayer\DOTNET.BOSCH.EMS.DaoLayer.csproj", "{7BA20738-F064-4610-BF6F-32C83C0E2DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.BusinessLayer", "DOTNET.BOSCH.EMS.BusinessLayer\DOTNET.BOSCH.EMS.BusinessLayer.csproj", "{05E67BE5-6E9F-48E2-9666-3D2FCDEDB4CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.UserInterface", "DOTNET.BOSCH.EMS.UserInterface\DOTNET.BOSCH.EMS.UserInterface.csproj", "{3DB6008B-C9AD-48DB-9D7D-3BD15AC0E957}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69A1930A-580D-407C-89B2-ACB24ADB4BD8}"
+	ProjectSection(SolutionItems) = preProject
+		category_records.txt = category_records.txt
+		product_records.txt = product_records.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.DaoLayer.Tests", "DOTNET.BOSCH.EMS.DaoLayer.Tests\DOTNET.BOSCH.EMS.DaoLayer.Tests.csproj", "{9AC4688F-0D5C-4F58-B41F-6B39DEB8CD6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.IOC", "DOTNET.BOSCH.EMS.IOC\DOTNET.BOSCH.EMS.IOC.csproj", "{95ADE1A2-4C01-420E-A9D2-232C0C45A74A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.BusinessLayer.Tests", "DOTNET.BOSCH.EMS.BusinessLayer.Tests\DOTNET.BOSCH.EMS.BusinessLayer.Tests.csproj", "{D0EE8D74-A8C2-4BE6-85A6-5C978BE13F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.CustomExceptions", "DOTNET.BOSCH.EMS.CustomExceptions\DOTNET.BOSCH.EMS.CustomExceptions.csproj", "{1BDB09B5-AFBA-4DA8-9B82-4AD8568AD143}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1E49896-9BB5-4FD1-9F4F-69F44A65853A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E49896-9BB5-4FD1-9F4F-69F44A65853A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E49896-9BB5-4FD1-9F4F-69F44A65853A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E49896-9BB5-4FD1-9F4F-69F44A65853A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA20738-F064-4610-BF6F-32C83C0E2DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA20738-F064-4610-BF6F-32C83C0E2DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA20738-F064-4610-BF6F-32C83C0E2DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA20738-F064-4610-BF6F-32C83C0E2DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E67BE5-6E9F-48E2-9666-3D2FCDEDB4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E67BE5-6E9F-48E2-9666-3D2FCDEDB4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E67BE5-6E9F-48E2-9666-3D2FCDEDB4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E67BE5-6E9F-48E2-9666-3D2FCDEDB4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB6008B-C9AD-48DB-9D7D-3BD15AC0E957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB6008B-C9AD-48DB-9D7D-3BD15AC0E957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB6008B-C9AD-48DB-9D7D-3BD15AC0E957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB6008B-C9AD-48DB-9D7D-3BD15AC0E957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC4688F-0D5C-4F58-B41F-6B39DEB8CD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC4688F-0D5C-4F58-B41F-6B39DEB8CD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC4688F-0D5C-4F58-B41F-6B39DEB8CD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC4688F-0D5C-4F58-B41F-6B39DEB8CD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95ADE1A2-4C01-420E-A9D2-232C0C45A74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95ADE1A2-4C01-420E-A9D2-232C0C45A74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95ADE1A2-4C01-420E-A9D2-232C0C45A74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95ADE1A2-4C01-420E-A9D2-232C0C45A74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0EE8D74-A8C2-4BE6-85A6-5C978BE13F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0EE8D74-A8C2-4BE6-85A6-5C978BE13F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0EE8D74-A8C2-4BE6-85A6-5C978BE13F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0EE8D74-A8C2-4BE6-85A6-5C978BE13F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDB09B5-AFBA-4DA8-9B82-4AD8568AD143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDB09B5-AFBA-4DA8-9B82-4AD8568AD143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDB09B5-AFBA-4DA8-9B82-4AD8568AD143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDB09B5-AFBA-4DA8-9B82-4AD8568AD143}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38A8D725-9B43-40D1-8832-420005A0B0F9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+1. LINQ
+2. exception handling
+3. serialization
+4. object destruction
+
+5. threading
+
+Exception Handling:
+Errors: 
+	a. compile time errors
+	b. logical errors => runtime
+
+multiply(int a, int b){ return (a*b);}
+
+1. Creates an object of a class DivideByZeroException/ IndexOutofRangeException
+2. populates the object with lots of information, such as: which method, which line in which file of which program caused the issue
+3. It passes the reference of that object to you
+
+				Exception
+-----------------------------------------------------------------------------------------
+SystemException					ApplicationException
+	DivideByZeroException				AgeLessThan18Exception
+	NullReferenceException
+	.......................
+
+GetAll => NullRef, Format, IO, filenotfound
+M2 => EX1, EX2, EX3, ...
+M3=> EX1, EX4, NullRef, Format, .....
+
+data acces layer
+-------------------------
+	N methods 
+	3/4 exceptions
+	3N,4N,....
+	

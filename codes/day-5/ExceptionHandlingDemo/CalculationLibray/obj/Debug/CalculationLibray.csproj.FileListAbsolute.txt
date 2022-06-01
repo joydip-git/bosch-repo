@@ -1,0 +1,6 @@
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\CalculationLibray\bin\Debug\CalculationLibray.dll
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\CalculationLibray\bin\Debug\CalculationLibray.pdb
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\CalculationLibray\obj\Debug\CalculationLibray.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\CalculationLibray\obj\Debug\CalculationLibray.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\CalculationLibray\obj\Debug\CalculationLibray.dll
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\CalculationLibray\obj\Debug\CalculationLibray.pdb

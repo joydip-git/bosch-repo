@@ -1,0 +1,5 @@
+E:\training\bosch-repo\codes\day-5\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.CustomExceptions\bin\Debug\DOTNET.BOSCH.EMS.CustomExceptions.dll
+E:\training\bosch-repo\codes\day-5\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.CustomExceptions\bin\Debug\DOTNET.BOSCH.EMS.CustomExceptions.pdb
+E:\training\bosch-repo\codes\day-5\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.CustomExceptions\obj\Debug\DOTNET.BOSCH.EMS.CustomExceptions.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-5\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.CustomExceptions\obj\Debug\DOTNET.BOSCH.EMS.CustomExceptions.dll
+E:\training\bosch-repo\codes\day-5\DOTNET.BOSCH.EMS\DOTNET.BOSCH.EMS.CustomExceptions\obj\Debug\DOTNET.BOSCH.EMS.CustomExceptions.pdb

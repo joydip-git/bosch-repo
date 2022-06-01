@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionHandlingDemo\bin\Debug\ExceptionHandlingDemo.exe.config
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionHandlingDemo\bin\Debug\ExceptionHandlingDemo.exe
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionHandlingDemo\bin\Debug\ExceptionHandlingDemo.pdb
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionHandlingDemo\obj\Debug\ExceptionHandlingDemo.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionHandlingDemo\obj\Debug\ExceptionHandlingDemo.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionHandlingDemo\obj\Debug\ExceptionHandlingDemo.exe
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionHandlingDemo\obj\Debug\ExceptionHandlingDemo.pdb

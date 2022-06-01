@@ -1,0 +1,14 @@
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\bin\Debug\ExceptionsInWinform.exe.config
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\bin\Debug\ExceptionsInWinform.exe
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\bin\Debug\ExceptionsInWinform.pdb
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\obj\Debug\ExceptionsInWinform.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\obj\Debug\ExceptionsInWinform.Form1.resources
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\obj\Debug\ExceptionsInWinform.Properties.Resources.resources
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\obj\Debug\ExceptionsInWinform.csproj.GenerateResource.cache
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\obj\Debug\ExceptionsInWinform.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\obj\Debug\ExceptionsInWinform.exe
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\obj\Debug\ExceptionsInWinform.pdb
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\bin\Debug\CalculationLibray.dll
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\bin\Debug\CalculationLibray.pdb
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\obj\Debug\ExceptionsInWinform.csproj.CopyComplete
+E:\training\bosch-repo\codes\day-5\ExceptionHandlingDemo\ExceptionsInWinform\obj\Debug\ExceptionsInWinform.ApplicationForm.resources
