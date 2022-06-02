@@ -19,3 +19,10 @@ var selectedObject = comboBox.selectedItem
 
 DataContext
 
+
+Validation:
+	a. you can raise errors in your data object
+		i. generally it is ignored by WPF. notify the WPF and show useful indication in UI
+		ii.	
+	b. you can define validation at the binding level
+
