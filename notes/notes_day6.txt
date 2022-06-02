@@ -1,0 +1,16 @@
+DataBinding:
+	mode: oneway, twoway, one way to source, one time, default
+
+Converter:
+Validation:
+
+Dependency Property:
+RoutedEvents:
+
+s -> T
+S->T->S
+S<-T
+S->T
+
+DataContext
+

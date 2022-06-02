@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Slider HorizontalAlignment="Left" Margin="204,56,0,0" VerticalAlignment="Top" Width="304" Name="slider1" Maximum="50" Minimum="0" Value="10" TickPlacement="TopLeft" TickFrequency="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="226,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="282" Text="{Binding ElementName=slider1, Path=Value, Mode=TwoWay}" x:Name="txtBlock1"/>
+
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="226,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Name="txtBox1" Text="{Binding ElementName=txtBlock1, Path=Text, UpdateSourceTrigger=PropertyChanged}"/>
+
     </Grid>
 </Window>
