@@ -21,7 +21,12 @@ DataContext
 
 
 Validation:
-	a. you can raise errors in your data object
+	a. you can raise errors in your data object:
+		ValidatesOnExceptions:true
+		A. attahed property of TextBox control, Validation.HasError is set to true
+		B. creates a ValidationError object with the error details and adds this to attached property of TextBox, Validation.Errors collection
+		C. NotifyOnValidationError if is set to true, WPF will raise Validation.Error attached event 
+
 		i. generally it is ignored by WPF. notify the WPF and show useful indication in UI
 		ii.	
 	b. you can define validation at the binding level
