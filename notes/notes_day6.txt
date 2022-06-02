@@ -12,5 +12,10 @@ S->T->S
 S<-T
 S->T
 
+ItemsControl: ItemsSource, DisplayMemberPath, ItemTemplate
+comboBox => a list of person objects
+	selectedindexchanged
+var selectedObject = comboBox.selectedItem
+
 DataContext
 

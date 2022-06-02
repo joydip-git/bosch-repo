@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,7 +20,7 @@ namespace wpf_DataBinding
     /// </summary>
     public partial class DataWindow : Window
     {
-        private List<Person> people;
+        private ObservableCollection<DataWindowPersonViewModel> people = new ObservableCollection<DataWindowPersonViewModel>();
         public DataWindow()
         {
             InitializeComponent();
@@ -28,23 +29,43 @@ namespace wpf_DataBinding
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            people = PersonRepository.People;
+            var all = PersonRepository.People;
+            all
+                .Select(p => new DataWindowPersonViewModel { Person = p, ConvertedSalary = p.Salary.ToString() })
+                .ToList<DataWindowPersonViewModel>()
+                .ForEach(dvp => people.Add(dvp));
+
             comboPeople.ItemsSource = people;
-            comboPeople.DisplayMemberPath = "Name";
+            comboPeople.DisplayMemberPath = "Person.Name";
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             foreach (var item in people)
             {
-                MessageBox.Show(item.Name);
+                MessageBox.Show(item.Person.Name);
             }
         }
 
         private void btnIncrease_Click(object sender, RoutedEventArgs e)
         {
-            people.ForEach(p => p.Salary *= 2);
-            people.ForEach(p => MessageBox.Show(p.Salary.ToString()));
+            //people.ForEach(p => p.Salary *= 2);
+            //people.ForEach(p => MessageBox.Show(p.Salary.ToString()));
+            try
+            {
+                foreach (var p in people)
+                {
+                    p.Person.Salary *= 2;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            //foreach (var p in people)
+            //{
+            //    MessageBox.Show(p.Salary.ToString());
+            //}
         }
     }
 }

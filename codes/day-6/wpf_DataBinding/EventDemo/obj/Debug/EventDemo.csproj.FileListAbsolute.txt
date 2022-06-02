@@ -1,0 +1,7 @@
+E:\training\bosch-repo\codes\day-6\wpf_DataBinding\EventDemo\bin\Debug\EventDemo.exe.config
+E:\training\bosch-repo\codes\day-6\wpf_DataBinding\EventDemo\bin\Debug\EventDemo.exe
+E:\training\bosch-repo\codes\day-6\wpf_DataBinding\EventDemo\bin\Debug\EventDemo.pdb
+E:\training\bosch-repo\codes\day-6\wpf_DataBinding\EventDemo\obj\Debug\EventDemo.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-6\wpf_DataBinding\EventDemo\obj\Debug\EventDemo.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-6\wpf_DataBinding\EventDemo\obj\Debug\EventDemo.exe
+E:\training\bosch-repo\codes\day-6\wpf_DataBinding\EventDemo\obj\Debug\EventDemo.pdb

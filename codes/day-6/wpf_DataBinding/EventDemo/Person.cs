@@ -1,7 +1,21 @@
 ﻿using System.ComponentModel;
 
-namespace wpf_DataBinding
+namespace EventDemo
 {
+    public class CustomPropertyChangedEventArgs : PropertyChangedEventArgs
+    {
+        private string[] properties;
+
+        public string[] Properties => properties;
+
+        public CustomPropertyChangedEventArgs(string propertyName, string[] properties = null) : base(propertyName)
+        {
+            this.properties = properties;
+        }
+    }
+
+
+
     public class Person : INotifyPropertyChanged
     {
         private int id;
@@ -30,11 +44,6 @@ namespace wpf_DataBinding
             }
         }
 
-        //public string ConvertedSalary
-        //{
-        //    get => $"${salary}";
-        //    set => Salary = double.Parse(value.Split('$')[1]);
-        //}
 
         public string Name
         {
@@ -45,6 +54,7 @@ namespace wpf_DataBinding
                 OnPropertyChanged("Name");
             }
         }
+
 
         public int Id
         {
@@ -58,11 +68,13 @@ namespace wpf_DataBinding
 
         public event PropertyChangedEventHandler PropertyChanged;
 
+        //public void OnPropertyChanged(string propertyName, string[] properties = null)
         public void OnPropertyChanged(string propertyName)
         {
             if (PropertyChanged != null)
             {
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+                //PropertyChanged(this, new CustomPropertyChangedEventArgs(propertyName, properties));
             }
         }
     }
