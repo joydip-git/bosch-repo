@@ -1,0 +1,10 @@
+E:\training\bosch-repo\codes\day-5\SampleFormApp\SampleFormApp\bin\Debug\SampleFormApp.exe.config
+E:\training\bosch-repo\codes\day-5\SampleFormApp\SampleFormApp\bin\Debug\SampleFormApp.exe
+E:\training\bosch-repo\codes\day-5\SampleFormApp\SampleFormApp\bin\Debug\SampleFormApp.pdb
+E:\training\bosch-repo\codes\day-5\SampleFormApp\SampleFormApp\obj\Debug\SampleFormApp.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-5\SampleFormApp\SampleFormApp\obj\Debug\SampleFormApp.Form1.resources
+E:\training\bosch-repo\codes\day-5\SampleFormApp\SampleFormApp\obj\Debug\SampleFormApp.Properties.Resources.resources
+E:\training\bosch-repo\codes\day-5\SampleFormApp\SampleFormApp\obj\Debug\SampleFormApp.csproj.GenerateResource.cache
+E:\training\bosch-repo\codes\day-5\SampleFormApp\SampleFormApp\obj\Debug\SampleFormApp.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-5\SampleFormApp\SampleFormApp\obj\Debug\SampleFormApp.exe
+E:\training\bosch-repo\codes\day-5\SampleFormApp\SampleFormApp\obj\Debug\SampleFormApp.pdb

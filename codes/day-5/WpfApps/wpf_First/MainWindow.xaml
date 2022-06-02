@@ -1,0 +1,22 @@
+﻿<Window x:Class="wpf_First.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_First"        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid x:Name="grid1">
+        <!--
+        <Slider HorizontalAlignment="Left" Margin="172,90,0,0" VerticalAlignment="Top" Height="26" Width="381" Maximum="50" Minimum="0" Value="10" Name="slider1" TickPlacement="TopLeft" ValueChanged="slider1_ValueChanged"/>
+        -->
+        <Slider HorizontalAlignment="Left" Margin="172,90,0,0" VerticalAlignment="Top" Height="26" Width="381" Maximum="50" Minimum="0" Value="10" Name="slider1" TickPlacement="TopLeft"/>
+
+        <Label Content="Slider Value: " HorizontalAlignment="Left" Margin="160,43,0,0" VerticalAlignment="Top" Height="30" Width="106"/>
+
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="312,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Name="txtSliderValue"
+                 Text="{Binding ElementName=slider1, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+    </Grid>
+</Window>
