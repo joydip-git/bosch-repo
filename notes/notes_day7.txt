@@ -1,0 +1,21 @@
+1. RoutedEvents
+	- what is re?
+	- strategy
+	- custom routed events
+2. Resources
+	- static and dyanmic
+	- where resource is placed
+	- resource dictionary
+	- resource library
+3. Commands
+4. Custom control
+5. Template
+6. Styles
+	- property setter
+	- event setter
+	- trigger
+
+MVVM
+Prism
+
+

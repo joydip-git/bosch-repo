@@ -1,24 +1,20 @@
 DataBinding:
 	mode: oneway, twoway, one way to source, one time, default
-
-Converter:
-Validation:
-
-Dependency Property:
-RoutedEvents:
-
 s -> T
 S->T->S
 S<-T
 S->T
+
+Dependency Property:
+Converter:
+Validation:
 
 ItemsControl: ItemsSource, DisplayMemberPath, ItemTemplate
 comboBox => a list of person objects
 	selectedindexchanged
 var selectedObject = comboBox.selectedItem
 
-DataContext
-
+DataContext property
 
 Validation: generally it is ignored by WPF. notify the WPF and show useful indication in UI.
 	a. you can raise errors in your data object:
