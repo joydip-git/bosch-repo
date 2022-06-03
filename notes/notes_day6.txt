@@ -20,14 +20,70 @@ var selectedObject = comboBox.selectedItem
 DataContext
 
 
-Validation:
+Validation: generally it is ignored by WPF. notify the WPF and show useful indication in UI.
 	a. you can raise errors in your data object:
-		ValidatesOnExceptions:true
-		A. attahed property of TextBox control, Validation.HasError is set to true
+		A. ValidatesOnExceptions:true=>
+		in the setter of the property of the entity you have thrown exception
+		if(salary<0) throw new ArgEx("");
+		You did not implement IDataErroInfo or INotifyDataErrorInfo in the entity
+		Markup:
+		<TextBox Text={Binding ValidatesOnExceptions=true, ......}/>
+		or
+		<TextBox>
+			<Binding ....>
+				<Binding.ValidationRules>
+					<ExceptionValidationRule></ExceptionValidationRule>
+				</Binding.ValidationRules>
+			</Binding>
+		</TextBox>
+
+		B. ValidatesOnDataErrors:True=> not writing any logic for valiation in setter of the proprties of the entity and not throwing any exception from there.
+		rather, you have implemented IDataErroInfo interface in the entity. 
+		you have implemented the indexer in the entity where validation logic is written and in response to failed validation you are returning error messages
+
+		class Person:IDataErroInfo{
+		public string this[string propName]
+		{
+			if(propName=="Salary")
+			{
+				return "er-m";
+			}
+			return null;
+		}
+		}
+
+		Markup:
+		<TextBox Text={Binding ValidatesOnDataErrors=true, ......}/>
+		or
+		<TextBox>
+			<Binding ....>
+				<Binding.ValidationRules>
+					<DataErrorValidationRule></DataErrorValidationRule>
+				</Binding.ValidationRules>
+			</Binding>
+		</TextBox>
+
+		C. ValidatesOnNotifyDataErrors=True
+		writing logic for valiation in setter of the proprties of the entity but not throwing any exception from there. rather adding the property name and corresponding error message(s) in a collection. you have implemented INotifyDataErroInfo interface in the entity. 
+		you have implemented the HasErrors, GetErrors etc. in the entity to return whether the enttity at all has any error or not, and if any, return all the errors related to a property through GetErrors() method. also, every time error is added or removed from the collection, the event ErrorsChanged must be fired
+		
+		NotifyOnValidationError=True
+		whatever way you have implemented the validation, is this property is set to true, it will fire Validation.Error event which you can provide an event handler to display all the errors for a property
+
+		A. attached property of TextBox control, Validation.HasError is set to true
 		B. creates a ValidationError object with the error details and adds this to attached property of TextBox, Validation.Errors collection
 		C. NotifyOnValidationError if is set to true, WPF will raise Validation.Error attached event 
+	
+	b. you don't have anything to do with the entity regarding validation
+	create a custom validation rule by implementing ValidationRule abstract base class in some class (custom validator class)
+		xmlns:ref="clr-namespace:<namespace of custom validation rule>"
 
-		i. generally it is ignored by WPF. notify the WPF and show useful indication in UI
-		ii.	
-	b. you can define validation at the binding level
+
+		<TextBox>
+			<Binding ....>
+				<Binding.ValidationRules>
+					<ref:CusmtomValidationRule></DataErrorValidationRule>
+				</Binding.ValidationRules>
+			</Binding>
+		</TextBox>
 
