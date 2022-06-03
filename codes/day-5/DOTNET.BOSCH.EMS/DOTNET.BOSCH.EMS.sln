@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.BusinessLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.CustomExceptions", "DOTNET.BOSCH.EMS.CustomExceptions\DOTNET.BOSCH.EMS.CustomExceptions.csproj", "{1BDB09B5-AFBA-4DA8-9B82-4AD8568AD143}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNET.BOSCH.EMS.WPFUI", "DOTNET.BOSCH.EMS.WPFUI\DOTNET.BOSCH.EMS.WPFUI.csproj", "{5463DBFF-F4AE-4B18-9D97-667730883510}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{1BDB09B5-AFBA-4DA8-9B82-4AD8568AD143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BDB09B5-AFBA-4DA8-9B82-4AD8568AD143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BDB09B5-AFBA-4DA8-9B82-4AD8568AD143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5463DBFF-F4AE-4B18-9D97-667730883510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5463DBFF-F4AE-4B18-9D97-667730883510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5463DBFF-F4AE-4B18-9D97-667730883510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5463DBFF-F4AE-4B18-9D97-667730883510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,3 +13,8 @@ E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\wpf_RoutedEvents\obj\Debug\w
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\wpf_RoutedEvents\obj\Debug\wpf_RoutedEvents.csproj.CoreCompileInputs.cache
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\wpf_RoutedEvents\obj\Debug\wpf_RoutedEvents.exe
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\wpf_RoutedEvents\obj\Debug\wpf_RoutedEvents.pdb
+E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\wpf_RoutedEvents\bin\Debug\BoschUserControls.dll
+E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\wpf_RoutedEvents\bin\Debug\BoschUserControls.pdb
+E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\wpf_RoutedEvents\obj\Debug\UsingColorEditor.g.cs
+E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\wpf_RoutedEvents\obj\Debug\UsingColorEditor.baml
+E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\wpf_RoutedEvents\obj\Debug\wpf_RoutedEvents.csproj.CopyComplete

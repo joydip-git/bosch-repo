@@ -18,6 +18,7 @@ namespace BoschUserControls
     /// <summary>
     /// Interaction logic for ColorEditor.xaml
     /// </summary>
+    //public partial class ColorEditor : Control
     public partial class ColorEditor : UserControl
     {
         public static readonly DependencyProperty RedProperty;
@@ -31,20 +32,34 @@ namespace BoschUserControls
         {
             //RedProperty
             FrameworkPropertyMetadata redPropertyMetadata = new FrameworkPropertyMetadata(new PropertyChangedCallback(OnColorRGBChangedCallback));
-            RedProperty = DependencyProperty.Register("Red", typeof(Color), typeof(ColorEditor), redPropertyMetadata);
+            RedProperty = DependencyProperty.Register("Red", typeof(byte), typeof(ColorEditor), redPropertyMetadata);          
 
             //GreenProperty
             FrameworkPropertyMetadata greenPropertyMetadata = new FrameworkPropertyMetadata(new PropertyChangedCallback(OnColorRGBChangedCallback));
-            GreenProperty = DependencyProperty.Register("Green", typeof(Color), typeof(ColorEditor), greenPropertyMetadata);
+            GreenProperty = DependencyProperty.Register("Green", typeof(byte), typeof(ColorEditor), greenPropertyMetadata);
 
             //BlueProperty
             FrameworkPropertyMetadata bluePropertyMetadata = new FrameworkPropertyMetadata(new PropertyChangedCallback(OnColorRGBChangedCallback));
-            BlueProperty = DependencyProperty.Register("Blue", typeof(Color), typeof(ColorEditor), bluePropertyMetadata);
+            BlueProperty = DependencyProperty.Register("Blue", typeof(byte), typeof(ColorEditor), bluePropertyMetadata);
 
             //ColorProperty
             FrameworkPropertyMetadata colorPropertyMetadata = new FrameworkPropertyMetadata(Colors.Black, new PropertyChangedCallback(OnColorChangedCallback));
+            ColorProperty = DependencyProperty.Register(
+                "Color",
+                typeof(Color),
+                typeof(ColorEditor),
+                colorPropertyMetadata
+                );
 
             //ColorChangedEvent
+            ColorChangedEvent = EventManager.RegisterRoutedEvent(
+                "ColorChanged",
+                RoutingStrategy.Bubble,
+                typeof(RoutedPropertyChangedEventHandler<Color>),
+                typeof(ColorEditor)
+                );
+
+            //DefaultStyleKeyProperty.OverrideMetadata(typeof(ColorEditor), new FrameworkPropertyMetadata(typeof(ColorEditor)));
         }
         public ColorEditor()
         {
@@ -73,22 +88,30 @@ namespace BoschUserControls
         }
         private static void OnColorChangedCallback(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
+            Color color = (Color)e.NewValue;
+            ColorEditor cd = d as ColorEditor;
+            cd.Red = color.R;
+            cd.Green = color.G;
+            cd.Blue = color.B;
 
+            RoutedPropertyChangedEventArgs<Color> args = new RoutedPropertyChangedEventArgs<Color>((Color)e.NewValue, (Color)e.OldValue);
+            args.RoutedEvent = ColorEditor.ColorChangedEvent;
+            cd.RaiseEvent(args);
         }
 
-        public Color Red
+        public byte Red
         {
-            get => (Color)this.GetValue(RedProperty);
+            get => (byte)this.GetValue(RedProperty);
             set => this.SetValue(RedProperty, value);
         }
-        public Color Green
+        public byte Green
         {
-            get => (Color)this.GetValue(GreenProperty);
+            get => (byte)this.GetValue(GreenProperty);
             set => this.SetValue(GreenProperty, value);
         }
-        public Color Blue
+        public byte Blue
         {
-            get => (Color)this.GetValue(BlueProperty);
+            get => (byte)this.GetValue(BlueProperty);
             set => this.SetValue(BlueProperty, value);
         }
         public Color Color
@@ -97,6 +120,10 @@ namespace BoschUserControls
             set => this.SetValue(ColorProperty, value);
         }
 
-        public event EventHandler ColorChanged;
+        public event RoutedPropertyChangedEventHandler<Color> ColorChanged
+        {
+            add { AddHandler(ColorChangedEvent, value); }
+            remove { RemoveHandler(ColorChangedEvent, value); }
+        }
     }
 }

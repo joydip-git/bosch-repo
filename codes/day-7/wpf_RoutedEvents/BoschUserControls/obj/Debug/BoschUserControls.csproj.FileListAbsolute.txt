@@ -1,13 +1,13 @@
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\bin\Debug\BoschUserControls.dll
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\bin\Debug\BoschUserControls.pdb
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\BoschUserControls.csproj.AssemblyReference.cache
-E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\UserControl1.g.cs
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\BoschUserControls_MarkupCompile.cache
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\BoschUserControls_MarkupCompile.lref
-E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\UserControl1.baml
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\BoschUserControls.g.resources
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\BoschUserControls.Properties.Resources.resources
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\BoschUserControls.csproj.GenerateResource.cache
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\BoschUserControls.csproj.CoreCompileInputs.cache
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\BoschUserControls.dll
 E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\BoschUserControls.pdb
+E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\ColorEditor.g.cs
+E:\training\bosch-repo\codes\day-7\wpf_RoutedEvents\BoschUserControls\obj\Debug\ColorEditor.baml
