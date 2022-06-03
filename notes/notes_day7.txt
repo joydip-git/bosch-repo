@@ -18,4 +18,14 @@
 MVVM
 Prism
 
+Resources:
+	Assembly resources
+	object resources: a .NET object, define at one place and use at several places
+	a. saved repeatative coding
+	b. saved at one place, hence modifcation is propagated to everywhere it has been used
+
+	Repository: Resource dictionary
+	all WPF elements (App, Window, Page, other control...) have a property "Resources". 
+	
+
 
