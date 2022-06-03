@@ -1,12 +1,14 @@
-1. RoutedEvents
-	- what is re?
-	- strategy
-	- custom routed events
-2. Resources
+1. Resources
 	- static and dyanmic
 	- where resource is placed
 	- resource dictionary
 	- resource library
+
+1. RoutedEvents
+	- what is re?
+	- strategy
+	- custom routed events
+
 3. Commands
 4. Custom control
 5. Template
@@ -54,4 +56,58 @@ e and f:
             <ImageBrush x:Key="TileBrush" TileMode="Tile" Viewport="0 0 32 32" ViewportUnits="Absolute" Opacity="0.3" ImageSource="Images/happyface.png"></ImageBrush>
         </ResourceDictionary>
 </X.Resources>
+
+
+Routed Events:
+class A
+{
+	set{ on-event-name()}
+
+	public event del-name event-name;
+	public void On-event-name(object args)
+	{
+		event-name?.Invoke(this,args);
+	}
+}
+
+del-name delobj = new del-name(func);
+new A().event-name += delobj;
+
+traditional even model => WPF enhances by using "event routing"
+
+Routing Strategy:
+	a. bubble up (bubbling)
+	b. tunnel down (tunneling)
+	c. both
+
+WPF events:
+	a. Lifetime
+	b. mouse events
+	c. keyboard events:
+		PreviewKeyDown: 
+		KeyDown
+		TextInput: does not happen for keystrokes which does not result into string
+	d. stylus events
+
+user controls
+Custom elements:
+	FrameworkElement
+	
+3 sliders
+1 rectangular shape
+1 label (hex value)
+
+Red		=> RedProperty 		[DependencyProperty]
+Green		=> GreenProperty	[DependencyProperty]
+Blue		=> BlueProperty		[DependencyProperty]
+Color		=> ColorProperty	[DependencyProperty]
+
+ColorChanged	=> ColorChangedEvent	[RoutedEvent]
+OnColorChanged
+
+
+ColorEditor colorEditor = new ColorEditor();
+colorEditor.Red => slider
+	
+	
 
