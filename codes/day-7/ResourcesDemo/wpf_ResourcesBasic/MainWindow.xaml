@@ -16,7 +16,7 @@
             </Button.Resources>
             <Button.Background>
                 <Binding Source="{StaticResource TileBrush}"/>
-            </Button.Background>
+            </Button.Background>          
         </Button>
     </Grid>
     

@@ -19,13 +19,39 @@ MVVM
 Prism
 
 Resources:
-	Assembly resources
-	object resources: a .NET object, define at one place and use at several places
-	a. saved repeatative coding
-	b. saved at one place, hence modifcation is propagated to everywhere it has been used
+	1. Assembly resources
+	2. object resources: a .NET object, define at one place and use at several places
+		a. saved repeatative coding
+		b. saved at one place, hence modifcation is propagated to everywhere it has been used
+		Static and Dynamic Resource:
+		how your element is bound to the resource
+		static: the element binds to the resource ONE TIME. though the resource is changed behind the scen during runtime, th element will have NO IDEA that the resource has been modified
+		factors: type of object (the changes may be notified to the bound elements)
+		dynamic: the element looks up to the resource every time it needs. so any change to the resource will be noticed and the element will be notified
+		
+		best practice: try to use static resource
+		note: elements depend on the windows settings (color scheme) in that case use the dynamic resource
 
 	Repository: Resource dictionary
 	all WPF elements (App, Window, Page, other control...) have a property "Resources". 
-	
 
+	Organizing resources at different places:	
+	a. at any control level
+	b. Layout control level
+	c. window/page level
+	d. app level
+	e. separate RD in the same appication [need to use Merged Dictionary]
+	f. separate RD in the separate library [need to use Merged Dictionary]
+
+e and f:
+-------------
+<X.Resources>
+	<ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ImageResourceDictionary.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/CustomResourceLibrary;component/ColorResourceDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <ImageBrush x:Key="TileBrush" TileMode="Tile" Viewport="0 0 32 32" ViewportUnits="Absolute" Opacity="0.3" ImageSource="Images/happyface.png"></ImageBrush>
+        </ResourceDictionary>
+</X.Resources>
 

@@ -13,5 +13,16 @@ namespace wpf_ResourcesBasic
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            //var imgDictionary = new ResourceDictionary();
+            //imgDictionary.Source = new Uri("");
+
+            //var rd = new ResourceDictionary();
+            //rd.MergedDictionaries.Add(imgDictionary);
+            //rd.Add("k1", 12);
+
+            //this.Resources = rd;
+        }
     }
 }

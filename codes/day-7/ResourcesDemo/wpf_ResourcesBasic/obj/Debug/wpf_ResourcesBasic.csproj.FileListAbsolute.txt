@@ -17,4 +17,12 @@ E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\Us
 E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\UsingWindowResources.g.cs
 E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\UsingAppResources.baml
 E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\UsingWindowResources.baml
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\StaticVsDynamic.g.cs
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\StaticVsDynamic.baml
 E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\App.baml
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\ImageResourceDictionary.baml
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\bin\Debug\CustomResourceLibrary.dll
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\bin\Debug\CustomResourceLibrary.pdb
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\usingLibraryResource.g.cs
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\usingLibraryResource.baml
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\obj\Debug\wpf_ResourcesBasic.csproj.CopyComplete

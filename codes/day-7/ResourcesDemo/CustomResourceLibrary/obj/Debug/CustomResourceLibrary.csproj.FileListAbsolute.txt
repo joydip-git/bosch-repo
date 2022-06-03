@@ -1,0 +1,11 @@
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\bin\Debug\CustomResourceLibrary.dll
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\bin\Debug\CustomResourceLibrary.pdb
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\obj\Debug\CustomResourceLibrary.csproj.AssemblyReference.cache
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\obj\Debug\CustomResourceLibrary_MarkupCompile.cache
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\obj\Debug\CustomResourceLibrary.g.resources
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\obj\Debug\CustomResourceLibrary.csproj.CoreCompileInputs.cache
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\obj\Debug\CustomResourceLibrary.dll
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\obj\Debug\CustomResourceLibrary.pdb
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\obj\Debug\CustomResourceLibrary_MarkupCompile.lref
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\training\bosch-repo\codes\day-7\ResourcesDemo\CustomResourceLibrary\obj\Debug\ColorResourceDictionary.baml

@@ -55,12 +55,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="StaticVsDynamic.xaml.cs">
+      <DependentUpon>StaticVsDynamic.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UsingAppResources.xaml.cs">
       <DependentUpon>UsingAppResources.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="usingLibraryResource.xaml.cs">
+      <DependentUpon>usingLibraryResource.xaml</DependentUpon>
     </Compile>
     <Compile Include="UsingWindowResources.xaml.cs">
       <DependentUpon>UsingWindowResources.xaml</DependentUpon>
     </Compile>
+    <Page Include="ImageResourceDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -73,7 +83,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="StaticVsDynamic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UsingAppResources.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="usingLibraryResource.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -110,6 +128,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\happyface.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomResourceLibrary\CustomResourceLibrary.csproj">
+      <Project>{0109bdf0-2be3-4aff-8d58-3d24e1eec5f0}</Project>
+      <Name>CustomResourceLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

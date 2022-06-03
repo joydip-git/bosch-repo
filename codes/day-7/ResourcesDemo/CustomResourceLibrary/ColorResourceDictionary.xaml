@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:c="clr-namespace:CustomResourceLibrary.Container">
+    <!--<ImageBrush x:Key="TileBrush" TileMode="Tile" Viewport="0 0 32 32" ViewportUnits="Absolute" Opacity="0.3" ImageSource="Images/happyface.png">
+    </ImageBrush>-->
+    <SolidColorBrush x:Key="ColorBrush" Color="Gray"/>
+    <c:Class1 x:Key="cls"/>
+</ResourceDictionary>

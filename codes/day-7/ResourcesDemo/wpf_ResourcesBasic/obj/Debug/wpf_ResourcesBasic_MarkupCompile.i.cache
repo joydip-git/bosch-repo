@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\training\bosch-repo\codes\day-7\ResourcesDemo\wpf_ResourcesBasic\App.xaml
-31012349688
+61741591085
 
-81199905346
-13-1505183044
-MainWindow.xaml;UsingAppResources.xaml;UsingWindowResources.xaml;
+10545295873
+141202409668
+ImageResourceDictionary.xaml;MainWindow.xaml;StaticVsDynamic.xaml;UsingAppResources.xaml;usingLibraryResource.xaml;UsingWindowResources.xaml;
 
 True
 
