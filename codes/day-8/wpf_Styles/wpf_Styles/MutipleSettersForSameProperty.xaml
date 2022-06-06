@@ -1,0 +1,20 @@
+﻿<Window x:Class="wpf_Styles.MutipleSettersForSameProperty"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_Styles"
+        mc:Ignorable="d"
+        Title="MutipleSettersForSameProperty" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="fontStyle">
+            <Setter Property="Button.FontSize" Value="20"/>
+            <Setter Property="TextBlock.FontSize" Value="15"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="97,161,0,0" VerticalAlignment="Top" Width="188" Height="63" Style="{StaticResource ResourceKey=fontStyle}"/>
+        <TextBox HorizontalAlignment="Left" Height="63" Margin="351,161,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="189" Style="{StaticResource ResourceKey=fontStyle}"/>
+
+    </Grid>
+</Window>

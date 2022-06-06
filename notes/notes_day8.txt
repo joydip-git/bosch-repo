@@ -1,0 +1,33 @@
+1. Commands
+5. Template
+6. Styles
+	- property setter
+	- event setter
+	- trigger
+
+MVVM
+Prism
+
+Style:
+	Setters
+		Setter
+	Triggers
+		Trigger
+	
+	Resources
+	BasedOn
+	TargetType
+
+class Control
+{
+	public static DependencyProperty FontSizeProperty;	
+	public double FontSize
+	{
+		set{SetValue(FontSizeProperty,value);}
+	}
+}
+
+class Button:Control
+{
+}
+
