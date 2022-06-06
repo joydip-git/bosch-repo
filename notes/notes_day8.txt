@@ -40,5 +40,27 @@ Trigger: you can automate simple style changes which might require lots of code-
 	MultiDataTrigger
 	EventTrigger
 
+Control:
+	Logical Tree: 
+	Visual Tree: expanded version of Logical Tree, breaks down each and every element to its smaller pieces
+
+	<Button>
+		
+	</Button>
+
+	Button->ButtonChrome->ContentPresenter->TextBlock->string
+
+	<ControlTemplate>
+		<ButtonChrome>
+			<ContentPresenter ...>
+				<TextBlcok
+			</ContentPresenter>
+		</ButtonChrome>
+		<ControlTemplate.Triggers>
+			<Trigger Property="UIElement.ISfocused">
+				<Setter Property="BC.RenderDefaulted"
+		</ControlTemplate.Triggers>
+	<ControlTemplate>
+
 
 
