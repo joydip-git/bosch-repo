@@ -43,19 +43,12 @@ namespace wpf_DataBinding
             get { return name; }
             set
             {
-                //if (value == string.Empty)
-                //{
-
-                //}
-                //else if (value.Length < 6)
-                //{
-
-                //}
-                //else
-                //{
+                if (value == string.Empty)
+                {
+                    throw new ArgumentException("name can't be empty");
+                }
                 name = value;
                 OnPropertyChanged("Name");
-                //}
             }
         }
 

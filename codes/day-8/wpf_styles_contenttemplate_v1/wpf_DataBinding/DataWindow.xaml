@@ -20,7 +20,7 @@
                                        DockPanel.Dock="Right"
                                        Foreground="Red"
                                        FontSize="20"
-                                       Text="Error"
+                                       Text="Validation Failed"
                                        ToolTip="{Binding  Path=AdornedElement.(Validation.Errors)[0].ErrorContent, ElementName=placeHolder}"/>
                             <AdornedElementPlaceholder x:Name="placeHolder"/>
                         </DockPanel>

@@ -63,4 +63,25 @@ Control:
 	<ControlTemplate>
 
 
+VT -- ControlTemplate -- LT
+
+control fails validation
+	Validation.HasError => True
+	ValidationError (ErrorContent) object created
+	and is added in the control's 
+	Validation.Errors collection
+	Validation.ErrorTemplate=<pre-defined template>
+
+<TextBlock ToolTip="{Binding Source={}, Path=(Validation.Errors[0]).ErrorContent}">Error</TextBlock>
+
+<AdornedElementPlaceHolder x:Name="placeholder"/>
+
+DataBinding
+	ElementName	
+	relative source
+	source => any obejct
+
+Command=>
+	
+
 

@@ -11,6 +11,22 @@
 
     <Window.Resources>
         <converters:SalaryConverter x:Key="salConveter"/>
+        <ControlTemplate x:Key="ErrorTemplate">
+            <DockPanel LastChildFill="True">
+                <Border BorderBrush="YellowGreen" BorderThickness="1">
+                    <AdornedElementPlaceholder x:Name="placeholder"/>
+                </Border>
+            </DockPanel>
+        </ControlTemplate>
+        
+        <Style TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter Property="ToolTip"
+                            Value="{Binding Path=(Validation.Errors)[0].ErrorContent, RelativeSource={x:Static RelativeSource.Self}}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
     </Window.Resources>
 
     <Grid x:Name="mainGrid">
@@ -42,7 +58,7 @@
                 </TextBlock.Background>
             </TextBlock>
 
-            <TextBox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Margin="28.8,33,0,0" TextWrapping="Wrap" Text="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}"  VerticalAlignment="Top" Height="45" Width="290" Name="txtName">
+            <TextBox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Margin="28.8,33,0,0" TextWrapping="Wrap" Text="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnExceptions=True}"  VerticalAlignment="Top" Height="45" Width="290" Name="txtName" Validation.ErrorTemplate="{StaticResource ErrorTemplate}">
                 <TextBox.Background>
                     <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
                 </TextBox.Background>
