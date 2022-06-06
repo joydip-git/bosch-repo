@@ -11,6 +11,8 @@ Prism
 Style:
 	Setters
 		Setter
+	Events
+		
 	Triggers
 		Trigger
 	
@@ -30,4 +32,13 @@ class Control
 class Button:Control
 {
 }
+
+Trigger: you can automate simple style changes which might require lots of code-behind code to  achieve
+	Trigger
+	MultiTrigger
+	DataTrigger
+	MultiDataTrigger
+	EventTrigger
+
+
 

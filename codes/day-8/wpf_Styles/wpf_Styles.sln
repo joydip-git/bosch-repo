@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_Styles", "wpf_Styles\wp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_Styles_EventSetter", "wpf_Styles_EventSetter\wpf_Styles_EventSetter.csproj", "{E1215E20-395B-4BF4-9E8F-3EE41C286C55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wof_styles_Trigger", "wof_styles_Trigger\wof_styles_Trigger.csproj", "{BC9D4E36-68C5-44A1-9342-6EE3C60FBF9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E1215E20-395B-4BF4-9E8F-3EE41C286C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1215E20-395B-4BF4-9E8F-3EE41C286C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1215E20-395B-4BF4-9E8F-3EE41C286C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9D4E36-68C5-44A1-9342-6EE3C60FBF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9D4E36-68C5-44A1-9342-6EE3C60FBF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9D4E36-68C5-44A1-9342-6EE3C60FBF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9D4E36-68C5-44A1-9342-6EE3C60FBF9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
