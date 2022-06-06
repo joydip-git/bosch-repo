@@ -1,0 +1,9 @@
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeRepositoryLibrary\bin\Debug\EmployeeRepositoryLibrary.dll
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeRepositoryLibrary\bin\Debug\EmployeeRepositoryLibrary.pdb
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeRepositoryLibrary\bin\Debug\EmployeeModelLibrary.dll
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeRepositoryLibrary\bin\Debug\EmployeeModelLibrary.pdb
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeRepositoryLibrary\obj\Debug\EmployeeRepositoryLibrary.csproj.AssemblyReference.cache
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeRepositoryLibrary\obj\Debug\EmployeeRepositoryLibrary.csproj.CoreCompileInputs.cache
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeRepositoryLibrary\obj\Debug\EmployeeRepositoryLibrary.csproj.CopyComplete
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeRepositoryLibrary\obj\Debug\EmployeeRepositoryLibrary.dll
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeRepositoryLibrary\obj\Debug\EmployeeRepositoryLibrary.pdb

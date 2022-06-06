@@ -81,7 +81,44 @@ DataBinding
 	relative source
 	source => any obejct
 
-Command=>
+Commands:
+
+UI: design
+	
+
+common place: presentation logic
+
+Business Logic
+Data access logic
+
+ICommand, RoutedCommand
+
+Commands: represents any application task, keep strack of whether it can be executed
+Command Bindings: Links a command to the related application logic for a particular control/area of UI
+Command Sources: what triggered the command
+Command Targets: is nothing but the element on which the commmand is being performed
+
+
+Application=>New, Open, SaveAs
+Navigation=>BrowseForward
+Editing=>MoveToLineEnd, SelectToLineEnd
+Component=>
+Media=>Play, Pause, etc....
+
+
+Prism.Core
+Prism.Unity
+Prism.Wpf
+
+Prism.DryIoc
+
+Shell
+	Regions
+		Components
+
+
+Views => MainWindow.xaml
+ViewModels => MainWindowViewModel.cs
 	
 
 

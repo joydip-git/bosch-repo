@@ -1,0 +1,5 @@
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeModelLibrary\bin\Debug\EmployeeModelLibrary.dll
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeModelLibrary\bin\Debug\EmployeeModelLibrary.pdb
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeModelLibrary\obj\Debug\EmployeeModelLibrary.csproj.CoreCompileInputs.cache
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeModelLibrary\obj\Debug\EmployeeModelLibrary.dll
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeModelLibrary\obj\Debug\EmployeeModelLibrary.pdb

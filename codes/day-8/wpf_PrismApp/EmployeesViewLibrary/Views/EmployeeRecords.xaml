@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="EmployeesViewLibrary.Views.EmployeeRecords"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EmployeesViewLibrary.Views"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid x:Name="mainGrid">
+        <Label Content="Select an Employee" HorizontalAlignment="Left" Margin="53,116,0,0" VerticalAlignment="Top" Height="29" Width="139"/>
+
+        <ComboBox HorizontalAlignment="Left" Margin="234,116,0,0" VerticalAlignment="Top" Width="260" Height="29" Name="comboEmployees" ItemsSource="{Binding Path=Employees}" DisplayMemberPath="Name"/>
+
+        <Button Content="Load" HorizontalAlignment="Left" Margin="543,116,0,0" VerticalAlignment="Top" Width="93" Height="29" Name="btnLoad" Command="{Binding CommandLoad}"/>
+
+        <Grid HorizontalAlignment="Left" Height="132" Margin="67,181,0,0" VerticalAlignment="Top" Width="615" DataContext="{Binding ElementName=comboEmployees, UpdateSourceTrigger=PropertyChanged, Path=SelectedItem}" Name="employeeGrid">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="34*"/>
+                <RowDefinition Height="46*"/>
+                <RowDefinition Height="51*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="78*"/>
+                <ColumnDefinition Width="127*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="ID: " HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top" Width="128" Grid.Row="0" Grid.Column="0"/>
+
+            <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Margin="43.6,0,0,0" TextWrapping="Wrap" Text="{Binding Path=Id}" VerticalAlignment="Top" Width="211" Height="30" Name="txtId"/>
+
+            <Label Content="NAME: " HorizontalAlignment="Left" Margin="32,9.6,0,0" VerticalAlignment="Top" Width="128" Grid.Row="1" Grid.Column="0"/>
+
+            <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="43.6,6.6,0,0" TextWrapping="Wrap" Text="{Binding Path=Name}" VerticalAlignment="Top" Width="211" Height="30" Grid.Row="1" Name="txtName"/>
+
+            <Label Content="SALARY: " HorizontalAlignment="Left" Margin="32,13.2,0,0" VerticalAlignment="Top" Width="128" Grid.Row="2" Grid.Column="0"/>
+
+            <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="43.6,10.2,0,0" TextWrapping="Wrap" Text="{Binding Path=Salary}" VerticalAlignment="Top" Width="211" Height="30" Grid.Row="2" Name="txtSalary"/>
+        </Grid>
+    </Grid>
+</UserControl>

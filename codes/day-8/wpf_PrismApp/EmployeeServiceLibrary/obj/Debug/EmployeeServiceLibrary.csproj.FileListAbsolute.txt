@@ -1,0 +1,11 @@
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\bin\Debug\EmployeeServiceLibrary.dll
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\bin\Debug\EmployeeServiceLibrary.pdb
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\bin\Debug\EmployeeModelLibrary.dll
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\bin\Debug\EmployeeRepositoryLibrary.dll
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\bin\Debug\EmployeeModelLibrary.pdb
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\bin\Debug\EmployeeRepositoryLibrary.pdb
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\obj\Debug\EmployeeServiceLibrary.csproj.AssemblyReference.cache
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\obj\Debug\EmployeeServiceLibrary.csproj.CoreCompileInputs.cache
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\obj\Debug\EmployeeServiceLibrary.csproj.CopyComplete
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\obj\Debug\EmployeeServiceLibrary.dll
+E:\my-applications\AdvancedCSharp\WPFApps\wpf_PrismApp\EmployeeServiceLibrary\obj\Debug\EmployeeServiceLibrary.pdb
